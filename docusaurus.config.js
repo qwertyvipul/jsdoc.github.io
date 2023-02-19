@@ -62,6 +62,32 @@ const config = {
                 darkTheme: darkCodeTheme,
             },
         }),
+
+    plugins: [
+        [
+            '@docusaurus/plugin-client-redirects',
+            {
+                redirects: [
+                    {
+                        to: '/about-block-inline-tags',
+                        from: '/about-inline-tags.html',
+                    },
+                    {
+                        to: '/tags-class',
+                        from: '/tags-constructor.html',
+                    },
+                    {
+                        to: '/tags-inline-link',
+                        from: '/tags-link.html',
+                    },
+                    {
+                        to: '/tags-function',
+                        from: '/tags-method.html',
+                    },
+                ],
+            },
+        ],
+    ],
 };
 
 module.exports = config;
