@@ -1,5 +1,4 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -45,8 +44,6 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
-            // Replace with your project's social card
-            image: 'img/docusaurus-social-card.jpg',
             navbar: {
                 title: '@jsdoc',
                 items: [
@@ -65,24 +62,26 @@ const config = {
 
     plugins: [
         [
+            // See: https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-client-redirects#installation
             '@docusaurus/plugin-client-redirects',
             {
+                fromExtensions: ['html'],
                 redirects: [
                     {
                         to: '/about-block-inline-tags',
-                        from: '/about-inline-tags.html',
+                        from: '/about-inline-tags',
                     },
                     {
                         to: '/tags-class',
-                        from: '/tags-constructor.html',
+                        from: '/tags-constructor',
                     },
                     {
                         to: '/tags-inline-link',
-                        from: '/tags-link.html',
+                        from: '/tags-link',
                     },
                     {
                         to: '/tags-function',
-                        from: '/tags-method.html',
+                        from: '/tags-method',
                     },
                 ],
             },
