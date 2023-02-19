@@ -30,7 +30,7 @@ of the `{@tutorial}` tag.
 
 The following example shows all of the ways to provide link text for the `{@tutorial}` tag:
 
-{% example "Providing link text" %}
+* **Providing link text**
 
 ```js
 /**
@@ -40,12 +40,12 @@ The following example shows all of the ways to provide link text for the `{@tuto
  */
 function myFunction() {}
 ```
-{% endexample %}
+
 
 If all of these tutorials are defined, and the title of the `gettingstarted` tutorial is "Getting
 Started," the example above produces output similar to the following:
 
-{% example "Output for {@link} tags" %}
+* **Output for {@link} tags**
 
 ```html
 See &lt;a href="tutorial-gettingstarted.html">Getting Started&lt;/a> and
@@ -53,4 +53,4 @@ See &lt;a href="tutorial-gettingstarted.html">Getting Started&lt;/a> and
 For more information, see &lt;a href="tutorial-create.html">Creating a Widget&lt;/a> and
 &lt;a href="tutorial-destroy.html">Destroying a Widget&lt;/a>.
 ```
-{% endexample %}
+

@@ -36,7 +36,7 @@ before the description. Be sure to include a space before and after the hyphen.
 ### Names, types, and descriptions
 The following examples show how to include names, types, and descriptions in a `@param` tag.
 
-{% example "Name only" %}
+* **Name only**
 
 ```js
 /**
@@ -46,9 +46,9 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
 
-{% example "Name and type" %}
+
+* **Name and type**
 
 ```js
 /**
@@ -58,9 +58,9 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
 
-{% example "Name, type, and description" %}
+
+* **Name, type, and description**
 
 ```js
 /**
@@ -70,12 +70,12 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
+
 
 You can add a hyphen before the description to make it more readable. Be sure to include a space
 before and after the hyphen.
 
-{% example "Name, type, and description, with a hyphen before the description" %}
+* **Name, type, and description, with a hyphen before the description**
 
 ```js
 /**
@@ -85,14 +85,14 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
+
 
 ### Parameters with properties
 If a parameter is expected to have a specific property, you can document that property by providing
 an additional `@param` tag. For example, if an `employee` parameter is expected to have `name` and
 `department` properties, you can document it as follows:
 
-{% example "Documenting a parameter's properties" %}
+* **Documenting a parameter's properties**
 
 ```js
 /**
@@ -105,12 +105,12 @@ Project.prototype.assign = function(employee) {
     // ...
 };
 ```
-{% endexample %}
+
 
 If a parameter is destructured without an explicit name, you can give the object an appropriate one and
 document its properties.
 
-{% example "Documenting a destructuring parameter" %}
+* **Documenting a destructuring parameter**
 ```js
 /**
  * Assign the project to an employee.
@@ -122,12 +122,12 @@ Project.prototype.assign = function({ name, department }) {
     // ...
 };
 ```
-{% endexample %}
+
 
 You can also combine this syntax with JSDoc's syntax for array parameters. For example, if multiple
 employees can be assigned to a project:
 
-{% example "Documenting properties of values in an array" %}
+* **Documenting properties of values in an array**
 
 ```js
 /**
@@ -140,12 +140,12 @@ Project.prototype.assign = function(employees) {
     // ...
 };
 ```
-{% endexample %}
+
 
 ### Optional parameters and default values
 The following examples show how to indicate that a parameter is optional and has a default value.
 
-{% example "An optional parameter (using JSDoc syntax)" %}
+* **An optional parameter (using JSDoc syntax)**
 
 ```js
 /**
@@ -158,9 +158,9 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
 
-{% example "An optional parameter (using Google Closure Compiler syntax)" %}
+
+* **An optional parameter (using Google Closure Compiler syntax)**
 
 ```js
 /**
@@ -173,9 +173,9 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
 
-{% example "An optional parameter and default value" %}
+
+* **An optional parameter and default value**
 
 ```js
 /**
@@ -188,14 +188,14 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
+
 
 ### Multiple types and repeatable parameters
 The following examples show how to use type expressions to indicate that a parameter can accept
 multiple types (or any type), and that a parameter can be provided more than once. See the
 [`@type` tag documentation][type-tag] for details about the type expressions that JSDoc supports.
 
-{% example "Allows one type OR another type (type union)" %}
+* **Allows one type OR another type (type union)**
 
 ```js
 /**
@@ -210,9 +210,9 @@ function sayHello(somebody) {
     alert('Hello ' + somebody);
 }
 ```
-{% endexample %}
 
-{% example "Allows any type" %}
+
+* **Allows any type**
 
 ```js
 /**
@@ -222,9 +222,9 @@ function sayHello(somebody) {
     console.log('Hello ' + JSON.stringify(somebody));
 }
 ```
-{% endexample %}
 
-{% example "Allows a parameter to be repeated" %}
+
+* **Allows a parameter to be repeated**
 
 ```js
 /**
@@ -239,13 +239,13 @@ function sum(num) {
     return t;
 }
 ```
-{% endexample %}
+
 
 ### Callback functions
 If a parameter accepts a callback function, you can use the [`@callback` tag][callback-tag] to
 define a callback type, then include the callback type in the `@param` tag.
 
-{% example "Parameters that accept a callback" %}
+* **Parameters that accept a callback**
 
 ```js
 /**
@@ -264,7 +264,7 @@ function doSomethingAsynchronously(cb) {
     // code
 };
 ```
-{% endexample %}
+
 
 [callback-tag]: tags-callback.html
 [type-tag]: tags-type.html

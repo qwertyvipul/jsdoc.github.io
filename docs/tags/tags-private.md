@@ -45,7 +45,7 @@ The `@private` tag is equivalent to `@access private`.
 In the following example, `Documents` and `Documents.Newspaper` appear in the generated
 documentation, but not `Documents.Diary`.
 
-{% example "Using the @private tag" %}
+* **Using the @private tag**
 
 ```js
 /** @namespace */
@@ -61,4 +61,4 @@ var Documents = {
     Diary: 2
 };
 ```
-{% endexample %}
+

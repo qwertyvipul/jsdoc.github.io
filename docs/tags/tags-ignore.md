@@ -22,7 +22,7 @@ namespaces, but with incomplete names.
 
 In the following example, `Jacket` and `Jacket#color` will not appear in the documentation.
 
-{% example "Class with `@ignore` tag" %}
+* **Class with `@ignore` tag**
 
 ```js
 /**
@@ -34,13 +34,13 @@ function Jacket() {
     this.color = null;
 }
 ```
-{% endexample %}
+
 
 In the following example, the `Clothes` namespace contains a `Jacket` class. The `@ignore` tag must
 be added to both `Clothes` and `Clothes.Jacket`. `Clothes`, `Clothes.Jacket`, and
 `Clothes.Jacket#color` will not appear in the documentation.
 
-{% example "Namespace with child class" %}
+* **Namespace with child class**
 
 ```js
 /**
@@ -58,4 +58,4 @@ var Clothes = {
     }
 };
 ```
-{% endexample %}
+

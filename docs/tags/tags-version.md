@@ -13,7 +13,7 @@ version of the item.
 
 ## Examples
 
-{% example "Using the @version tag" %}
+* **Using the @version tag**
 
 ```js
 /**
@@ -26,4 +26,4 @@ function solver(a, b) {
     return b / a;
 }
 ```
-{% endexample %}
+

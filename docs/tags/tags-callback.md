@@ -28,7 +28,7 @@ global callback type that is referenced from multiple classes.
 
 ## Examples
 
-{% example "Documenting a class-specific callback" %}
+* **Documenting a class-specific callback**
 
 ```js
 /**
@@ -51,9 +51,9 @@ Requester.prototype.send = function(cb) {
  * @param {string} responseMessage
  */
 ```
-{% endexample %}
 
-{% example "Documenting a global callback" %}
+
+* **Documenting a global callback**
 
 ```js
 /**
@@ -76,4 +76,4 @@ Requester.prototype.send = function(cb) {
  * @param {string} responseMessage
  */
 ```
-{% endexample %}
+

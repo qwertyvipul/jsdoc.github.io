@@ -36,7 +36,7 @@ pattern for choosing the values, which will make it easier for you to document y
 The following example uses the @variation tag to distinguish between the Widget class and the Widget
 namespace.
 
-{% example "Using the @variation tag" %}
+* **Using the @variation tag**
 
 ```js
 /**
@@ -67,4 +67,4 @@ Widget.properties = {
     metallic: true
 };
 ```
-{% endexample %}
+

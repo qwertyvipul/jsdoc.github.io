@@ -24,7 +24,7 @@ In this example, we want to use a helper function to make a class named `Person`
 instance methods named `initialize` and `say`. This is similar to how some popular frameworks
 handle class creation.
 
-{% example "Example class" %}
+* **Example class**
 
 ```js
 // We want to document this as being a class
@@ -40,7 +40,7 @@ var Person = makeClass(
     }
 );
 ```
-{% endexample %}
+
 
 Without any comments, JSDoc won't recognize that this code creates a `Person` class with two
 methods. To document the methods, we must use a `@lends` tag in a doc comment immediately before the
@@ -49,7 +49,7 @@ being "loaned" to a variable named `Person`. We must also add comments to each o
 
 The following example gets us closer to what we want:
 
-{% example "Documented as static methods" %}
+* **Documented as static methods**
 
 ```js
 /** @class */
@@ -74,14 +74,14 @@ var Person = makeClass(
     }
 );
 ```
-{% endexample %}
+
 
 Now the functions named `initialize` and `say` will be documented, but they appear as static methods
 of the `Person` class. That is possibly what you meant, but in this case we want `initialize` and
 `say` to belong to the instances of the `Person` class. So we change things slightly by lending the
 methods to the class's prototype:
 
-{% example "Documented as instance methods" %}
+* **Documented as instance methods**
 
 ```js
 /** @class */
@@ -106,14 +106,14 @@ var Person = makeClass(
     }
 );
 ```
-{% endexample %}
+
 
 One final step: Our class framework uses the loaned `initialize` function to construct `Person`
 instances, but a `Person` instance does not have its own `initialize` method. The solution is to add
 the `@constructs` tag to the loaned function. Remember to remove the `@class` tag as well, or else
 two classes will be documented.
 
-{% example "Documented with a constructor" %}
+* **Documented with a constructor**
 
 ```js
 var Person = makeClass(
@@ -138,4 +138,4 @@ var Person = makeClass(
     }
 );
 ```
-{% endexample %}
+

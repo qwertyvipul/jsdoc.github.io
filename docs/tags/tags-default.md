@@ -23,7 +23,7 @@ string, a number, a boolean or null.
 In this example a constant is documented. The value of the constant is `0xff0000`. By adding the
 @default tag this value is automatically added to the documentation.
 
-{% example "Document the number value of a constant" %}
+* **Document the number value of a constant**
 
 ```js
 /**
@@ -32,4 +32,4 @@ In this example a constant is documented. The value of the constant is `0xff0000
  */
 const RED = 0xff0000;
 ```
-{% endexample %}
+

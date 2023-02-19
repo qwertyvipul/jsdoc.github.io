@@ -17,7 +17,7 @@ the file.
 
 ## Example
 
-{% example "File description" %}
+* **File description**
 
 ```js
 /**
@@ -25,4 +25,4 @@ the file.
  * @author Rowina Sanela <rsanela@example.com>
  */
 ```
-{% endexample %}
+

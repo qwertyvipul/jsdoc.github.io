@@ -110,7 +110,7 @@ There are multiple ways to link to a tutorial from your API documentation:
 If you include a [`@tutorial` block tag][tutorial-block-tag] in a JSDoc comment, the generated documentation
 will include a link to the tutorial you specify.
 
-{% example "Using the `@tutorial` block tag" %}
+* **Using the `@tutorial` block tag**
 
 
 ```js
@@ -122,14 +122,14 @@ will include a link to the tutorial you specify.
  */
 function Socket() {}
 ```
-{% endexample %}
+
 
 ### {@tutorial} inline tag
 
 You can also use the [`{@tutorial}` inline tag][tutorial-inline-tag] to link to a tutorial within the text
 of another tag. By default, JSDoc will use the tutorial's title as the link text.
 
-{% example "Using the `{@tutorial}` inline tag" %}
+* **Using the `{@tutorial}` inline tag**
 
 ```js
 /**
@@ -140,7 +140,7 @@ of another tag. By default, JSDoc will use the tutorial's title as the link text
  */
 function Socket() {}
 ```
-{% endexample %}
+
 
 [tutorial-block-tag]: tags-tutorial.html
 [tutorial-inline-tag]: tags-inline-tutorial.html

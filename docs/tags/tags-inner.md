@@ -18,7 +18,7 @@ it will remain global).
 
 ## Examples
 
-{% example "Using @inner to make a virtual doclet an inner member" %}
+* **Using @inner to make a virtual doclet an inner member**
 
 ```js
 /** @namespace MyNamespace */
@@ -29,12 +29,12 @@ it will remain global).
  * @inner
  */
 ```
-{% endexample %}
+
 
 Note that in the above we could have used "@function MyNamespace~myFunction" instead of the
 @memberof and @inner tags.
 
-{% example "Using @inner" %}
+* **Using @inner**
 
 ```js
 /** @namespace */
@@ -46,7 +46,7 @@ var MyNamespace = {
     foo: 1
 };
 ```
-{% endexample %}
+
 
 In the above example, we use @inner to force a member of a namespace to be documented as an inner
 member (by default, it would be a static member). This means that `foo` now has the longname

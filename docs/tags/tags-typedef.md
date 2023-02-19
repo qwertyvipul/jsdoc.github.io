@@ -30,7 +30,7 @@ Use the [@callback][callback-tag] tag to document the type of callback functions
 This example defines a union type for parameters that can contain either numbers or strings that
 represent numbers.
 
-{% example "Using the @typedef tag" %}
+* **Using the @typedef tag**
 
 ```js
 /**
@@ -45,14 +45,14 @@ represent numbers.
 function setMagicNumber(x) {
 }
 ```
-{% endexample %}
+
 
 This example defines a more complex type, an object with several properties, and sets its
 namepath so it will be displayed along with the class that uses the type. Because the type
 definition is not actually exposed by the class, it is customary to document the type definition as
 an inner member.
 
-{% example "Using @typedef to document a complex type for a class" %}
+* **Using @typedef to document a complex type for a class**
 
 ```js
 /**
@@ -71,4 +71,4 @@ an inner member.
  */
 function WishGranter(triforce) {}
 ```
-{% endexample %}
+

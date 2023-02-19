@@ -28,7 +28,7 @@ interface's documentation for that symbol.
 In the following example, the `TransparentColor` class implements the `Color` interface and adds
 a `TransparentColor#rgba` method.
 
-{% example "Using the @implements tag" %}
+* **Using the @implements tag**
 
 ```js
 /**
@@ -73,4 +73,4 @@ TransparentColor.prototype.rgba = function() {
     // ...
 };
 ```
-{% endexample %}
+

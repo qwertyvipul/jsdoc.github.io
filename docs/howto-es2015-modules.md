@@ -48,7 +48,7 @@ In most cases, you can simply add a JSDoc comment to the `export` statement that
 exported value. If you are exporting a value under another name, you can document the exported value
 within its `export` block.
 
-{% example "Documenting values exported by a module" %}
+* **Documenting values exported by a module**
 
 ```js
 /** @module color/mixer */
@@ -82,6 +82,6 @@ export {
 }
 ```
 
-{% endexample %}
+
 
 [es2015-modules]: http://www.ecma-international.org/ecma-262/6.0/#sec-modules

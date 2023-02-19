@@ -20,7 +20,7 @@ address to a `mailto:` link.
 
 ## Examples
 
-{% example "Documenting the author of an item" %}
+* **Documenting the author of an item**
 
 ```js
 /**
@@ -28,4 +28,4 @@ address to a `mailto:` link.
  */
 function MyClass() {}
 ```
-{% endexample %}
+

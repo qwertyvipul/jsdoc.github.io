@@ -36,7 +36,7 @@ doclet. For example, using the @class tag automatically implies "@kind class", a
 
 ## Examples
 
-{% example "Using @kind" %}
+* **Using @kind**
 
 ```js
 // The following examples produce the same result:
@@ -53,12 +53,12 @@ const asdf = 1;
  */
 const asdf = 1;
 ```
-{% endexample %}
+
 
 In the case of tags with conflicting kinds (for example, using both @module, which sets the kind to
 "module", and "@kind constant" which sets the kind to "constant"), the last tag determines the kind.
 
-{% example "Conflicting @kind statements" %}
+* **Conflicting @kind statements**
 
 ```js
 /**
@@ -73,4 +73,4 @@ In the case of tags with conflicting kinds (for example, using both @module, whi
  * @module myModule
  */
 ```
-{% endexample %}
+

@@ -13,7 +13,7 @@ as highlighted code.
 
 Note that a doclet may have multiple examples.
 
-{% example "Documenting examples" %}
+* **Documenting examples**
 
 ```js
 /**
@@ -30,11 +30,11 @@ globalNS.method1 = function (a, b) {
     return b / a;
 };
 ```
-{% endexample %}
+
 
 Examples can also be captioned using `<caption></caption>` after the @example tag.
 
-{% example "Documenting examples with a caption" %}
+* **Documenting examples with a caption**
 
 ```js
 /**
@@ -48,4 +48,4 @@ globalNS.method1 = function (a, b) {
     return b / a;
 };
 ```
-{% endexample %}
+

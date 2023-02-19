@@ -26,7 +26,7 @@ the license, so that the license text will be included in generated JavaScript f
 
 ## Examples
 
-{% example "A module that is distributed under the Apache License 2.0" %}
+* **A module that is distributed under the Apache License 2.0**
 
 ```js
 /**
@@ -35,9 +35,9 @@ the license, so that the license text will be included in generated JavaScript f
  * @license Apache-2.0
  */
 ```
-{% endexample %}
 
-{% example "A standalone JSDoc comment with the complete MIT license" %}
+
+* **A standalone JSDoc comment with the complete MIT license**
 
 ```js
 /**
@@ -64,4 +64,4 @@ the license, so that the license text will be included in generated JavaScript f
  */
 ```
 
-{% endexample %}
+

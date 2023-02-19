@@ -34,7 +34,7 @@ The @alias tag tells JSDoc to pretend that Member A is actually named Member B. 
 JSDoc processes the following code, it recognizes that `foo` is a function, then renames `foo` to
 `bar` in the documentation:
 
-{% example %}
+
 
 ```js
 /**
@@ -43,7 +43,7 @@ JSDoc processes the following code, it recognizes that `foo` is a function, then
  */
 function foo() {}
 ```
-{% endexample %}
+
 
 ## Examples
 
@@ -55,7 +55,7 @@ the constructor for the class "trackr.CookieManager". Within the function, JSDoc
 `this` keyword relative to trackr.CookieManager, so the "value" method has the namepath
 "trackr.CookieManager#value".
 
-{% example "Using @alias with an anonymous constructor function" %}
+* **Using @alias with an anonymous constructor function**
 
 ```js
 Klass('trackr.CookieManager',
@@ -72,13 +72,13 @@ Klass('trackr.CookieManager',
 
 );
 ```
-{% endexample %}
+
 
 You can also use the @alias tag with members that are created within an immediately invoked function
 expression (IIFE). The @alias tag tells JSDoc that these members are exposed outside of the IIFE's
 scope.
 
-{% example "Using @alias for static members of a namespace" %}
+* **Using @alias for static members of a namespace**
 
 ```js
 /** @namespace */
@@ -97,12 +97,12 @@ var Apple = {};
     ns.Core = core;
 })(Apple);
 ```
-{% endexample %}
+
 
 For members that are defined within an object literal, you can use the @alias tag as an alternative
 to the [@lends][lends-tag] tag.
 
-{% example "Using @alias for an object literal" %}
+* **Using @alias for an object literal**
 
 ```js
 // Documenting objectA with @alias
@@ -145,6 +145,6 @@ var objectB = (function() {
     return x;
 })();
 ```
-{% endexample %}
+
 
 [lends-tag]: tags-lends.html

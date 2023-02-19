@@ -20,7 +20,7 @@ JSDoc's default template automatically converts the namepath to a link.
 
 ## Examples
 
-{% example "Using the @see tag" %}
+* **Using the @see tag**
 
 ```js
 /**
@@ -37,4 +37,4 @@ function foo() {}
  */
 function bar() {}
 ```
-{% endexample %}
+

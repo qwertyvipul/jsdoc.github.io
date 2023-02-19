@@ -24,7 +24,7 @@ which is a [@mixin][mixin-tag].
 
 To start, we document a mixin with the [@mixin][mixin-tag] tag:
 
-{% example "Example of a @mixin" %}
+* **Example of a @mixin**
 
 ```js
 /**
@@ -53,13 +53,13 @@ var Eventful = {
     }
 };
 ```
-{% endexample %}
+
 
 Now we add a FormButton class and call a "mix" function that mixes all of the Eventful functions
 into FormButton, so that FormButton can also fire events and have listeners. We use the @mixes tag
 to indicate that FormButton mixes the Eventful functions.
 
-{% example "Using the @mixes tag" %}
+* **Using the @mixes tag**
 
 ```js
 /**
@@ -74,6 +74,6 @@ FormButton.prototype.press = function() {
 }
 mix(Eventful).into(FormButton.prototype);
 ```
-{% endexample %}
+
 
 [mixin-tag]: tags-mixin.html

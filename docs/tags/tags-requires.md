@@ -20,7 +20,7 @@ process.
 
 ## Examples
 
-{% example "Using the @requires tag" %}
+* **Using the @requires tag**
 
 ```js
 /**
@@ -32,4 +32,4 @@ process.
  */
 function Widgetizer() {}
 ```
-{% endexample %}
+

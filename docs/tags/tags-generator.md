@@ -25,7 +25,7 @@ the function is a generator function.
 
 The following example shows a virtual comment that uses the `@generator` tag:
 
-{% example "Virtual comment with @generator tag" %}
+* **Virtual comment with @generator tag**
 
 ```js
 /**
@@ -37,4 +37,4 @@ The following example shows a virtual comment that uses the `@generator` tag:
  */
 ```
 
-{% endexample %}
+

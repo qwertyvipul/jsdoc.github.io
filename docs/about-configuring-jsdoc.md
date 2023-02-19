@@ -51,7 +51,7 @@ For a more comprehensive example of a JSON configuration file, see the file
 
 If you do not specify a configuration file, JSDoc uses the following configuration options:
 
-{% example %}
+
 
 ```js
 {
@@ -131,7 +131,7 @@ files and tutorials. This option is available in JSDoc 3.5.0 and later. This opt
 you also specify the [`-r` command-line flag][about-commandline], which tells JSDoc to recursively
 search for input files.
 
-{% example %}
+
 
 ```js
 {
@@ -146,7 +146,7 @@ search for input files.
 The `source` set of options, in combination with paths given to JSDoc on the command line,
 determines the set of input files that JSDoc uses to generate documentation.
 
-{% example %}
+
 
 ```js
 {
@@ -186,7 +186,7 @@ All remaining files after these four steps are processed by JSDoc.
 
 As an example, suppose you have the following file structure:
 
-{% example %}
+
 
 ```
 myProject/
@@ -203,7 +203,7 @@ myProject/
 
 In addition, suppose your `conf.json` file looks like this example:
 
-{% example %}
+
 
 ```js
 {
@@ -244,7 +244,7 @@ JSDoc 3.5.0 and later. This option accepts the following values:
 -   `script`: Use this value if JSDoc logs errors such as `Delete of an unqualified identifier in
 strict mode` when it parses your code.
 
-{% example %}
+
 
 ```js
 {
@@ -288,7 +288,7 @@ takes precedence.
 
 The options in `tags` control which JSDoc tags are allowed and how each tag is interpreted.
 
-{% example %}
+
 
 ```js
 {
@@ -329,7 +329,7 @@ The options in `templates` affect the appearance and content of generated docume
 templates may not implement all of these options. See [Configuring JSDoc's Default
 Template][default-template] for additional options that the default template supports.
 
-{% example %}
+
 
 ```js
 {

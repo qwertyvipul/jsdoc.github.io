@@ -30,7 +30,7 @@ symbol's scope.
 
 ## Examples
 
-{% example "Using the @public tag" %}
+* **Using the @public tag**
 
 ```js
 /**
@@ -47,4 +47,4 @@ function Thingy() {
     var foo = 0;
 }
 ```
-{% endexample %}
+

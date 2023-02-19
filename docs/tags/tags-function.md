@@ -21,19 +21,19 @@ sets the doclet's [@kind][kind-tag] to 'function'.
 
 ## Examples
 
-{% example "Using @function to mark a function." %}
+* **Using @function to mark a function.**
 
 ```js
 /** @function */
 var paginate = paginateFactory(pages);
 ```
-{% endexample %}
+
 
 Without the @function tag, the `paginate` object would be documented as a generic object (a
 [@member][member-tag]), because it isn't possible to tell from examining the line of code what type
 of value `paginate` will hold when it is run.
 
-{% example "Using @function with a name." %}
+* **Using @function with a name.**
 
 ```js
 /** @function myFunction */
@@ -42,6 +42,6 @@ of value `paginate` will hold when it is run.
 /** @function
  * @name myFunction */
 ```
-{% endexample %}
+
 
 [member-tag]: tags-member.html

@@ -34,7 +34,7 @@ example.
 The following example shows how to document the built-in `String` object as an external, along with
 the new instance method `external:String#rot13`:
 
-{% example "Documenting methods added to built-in classes" %}
+* **Documenting methods added to built-in classes**
 
 ```js
 /**
@@ -51,12 +51,12 @@ the new instance method `external:String#rot13`:
  * console.log( greeting.rot13() ); // uryyb jbeyq
  */
 ```
-{% endexample %}
+
 
 The following example documents a new `starfairy` function added to the external namespace
 `"jQuery.fn"`:
 
-{% example "Documenting external namespaces" %}
+* **Documenting external namespaces**
 
 ```js
 /**
@@ -70,12 +70,12 @@ The following example documents a new `starfairy` function added to the external
  * @function external:"jQuery.fn".starfairy
  */
 ```
-{% endexample %}
+
 
 In the following example, the class `EncryptedRequest` is documented as a subclass of the built-in
 class `XMLHttpRequest`:
 
-{% example "Extending an external." %}
+* **Extending an external.**
 
 ```js
 /**
@@ -90,7 +90,7 @@ class `XMLHttpRequest`:
  * @extends external:XMLHttpRequest
  */
 ```
-{% endexample %}
+
 
 [augments-tag]: tags-augments.html
 
@@ -100,7 +100,7 @@ project. In the following example, the documentation refers to the external clas
 `security.TLS`. As a result, the `@external` tag is used to document the external namespace
 `external:security`, but _not_ the external class `external:security.TLS`.
 
-{% example "Documenting a nested external symbol" %}
+* **Documenting a nested external symbol**
 
 ```js
 /**
@@ -115,4 +115,4 @@ project. In the following example, the documentation refers to the external clas
  * @memberof external:security
  */
 ```
-{% endexample %}
+

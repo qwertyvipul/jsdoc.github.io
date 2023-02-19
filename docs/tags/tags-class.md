@@ -20,7 +20,7 @@ keyword to return an instance.
 
 ## Examples
 
-{% example "A function that constructs Person instances." %}
+* **A function that constructs Person instances.**
 
 ```js
 /**
@@ -32,4 +32,4 @@ function Person() {
 
 var p = new Person();
 ```
-{% endexample %}
+

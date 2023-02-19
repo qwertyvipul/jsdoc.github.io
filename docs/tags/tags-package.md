@@ -44,7 +44,7 @@ The `@package` tag is equivalent to `@access package`.
 In the following example, the instance member `Thingy#_bar` appears in the generated documentation,
 but with an annotation indicating that it is package-private:
 
-{% example "Using the @package tag" %}
+* **Using the @package tag**
 
 ```js
 /** @constructor */
@@ -53,4 +53,4 @@ function Thingy() {
     this._bar = 1;
 }
 ```
-{% endexample %}
+

@@ -12,7 +12,7 @@ in your code.
 
 ## Examples
 
-{% example "Using the @readonly tag" %}
+* **Using the @readonly tag**
 
 ```js
 /**
@@ -22,9 +22,9 @@ in your code.
  */
 const FOO = 1;
 ```
-{% endexample %}
 
-{% example "Using the @readonly tag with a getter" %}
+
+* **Using the @readonly tag with a getter**
 
 ```js
 /**
@@ -45,4 +45,4 @@ var pieOptions = {
 	}
 };
 ```
-{% endexample %}
+

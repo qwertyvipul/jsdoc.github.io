@@ -21,7 +21,7 @@ that use the mixin.
 
 ## Examples
 
-{% example "Using @mixin" %}
+* **Using @mixin**
 
 ```js
 /**
@@ -50,4 +50,4 @@ var Eventful = {
     }
 };
 ```
-{% endexample %}
+

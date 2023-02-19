@@ -25,7 +25,7 @@ tag.
 
 ## Examples
 
-{% example "Return value with a type" %}
+* **Return value with a type**
 
 ```js
 /**
@@ -38,9 +38,9 @@ function sum(a, b) {
     return a + b;
 }
 ```
-{% endexample %}
 
-{% example "Return value with a type and description" %}
+
+* **Return value with a type and description**
 
 ```js
 /**
@@ -53,9 +53,9 @@ function sum(a, b) {
     return a + b;
 }
 ```
-{% endexample %}
 
-{% example "Return value with multiple types" %}
+
+* **Return value with multiple types**
 
 ```js
 /**
@@ -72,9 +72,9 @@ function sum(a, b, retArr) {
     return a + b;
 }
 ```
-{% endexample %}
 
-{% example "Returns a promise" %}
+
+* **Returns a promise**
 
 ```js
 /**
@@ -89,4 +89,3 @@ function sumAsync(a, b) {
     });
 }
 ```
-{% endexample %}

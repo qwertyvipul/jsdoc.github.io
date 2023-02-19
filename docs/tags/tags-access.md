@@ -44,7 +44,7 @@ will have an inner scope, even though the variable is public. To change a doclet
 
 ## Examples
 
-{% example "Using @access as a synonym for other tags" %}
+* **Using @access as a synonym for other tags**
 
 ```js
 /** @constructor */
@@ -83,4 +83,4 @@ function OtherThingy() {
 
 }
 ```
-{% endexample %}
+

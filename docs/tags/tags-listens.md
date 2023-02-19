@@ -24,7 +24,7 @@ The `@listens` tag indicates that a symbol listens for the specified event. Use 
 The following example shows how to document an event named `module:hurler~event:snowball`, as well
 as a method named `module:playground/monitor.reportThrowage` that listens for the event.
 
-{% example "Documenting an event and its listener" %}
+* **Documenting an event and its listener**
 
 ```js
 define('hurler', [], function () {
@@ -77,4 +77,4 @@ define('playground/monitor', [], function () {
     return exports;
 });
 ```
-{% endexample %}
+

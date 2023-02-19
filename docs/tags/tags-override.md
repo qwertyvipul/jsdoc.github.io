@@ -27,7 +27,7 @@ tag.
 
 The following example shows how to indicate that a method overrides a method in its parent class:
 
-{% example "Method that overrides a parent" %}
+* **Method that overrides a parent**
 
 ```js
 /**
@@ -59,4 +59,4 @@ Socket.prototype.open = function() {
     // ...
 };
 ```
-{% endexample %}
+

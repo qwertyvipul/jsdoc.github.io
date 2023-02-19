@@ -17,14 +17,14 @@ For example, if your plugin is defined in the `plugins/shout.js` file in the cur
 directory, you would add the string `plugins/shout` to the `plugins` array in your JSDoc
 configuration file:
 
-{% example "Adding a plugin to JSDoc's configuration file" %}
+* **Adding a plugin to JSDoc's configuration file**
 
 ```json
 {
     "plugins": ["plugins/shout"]
 }
 ```
-{% endexample %}
+
 
 JSDoc executes plugins in the order that they are listed in the configuration file.
 
@@ -46,7 +46,7 @@ At the highest level, a plugin may register handlers for specific named events t
 JSDoc will pass an event object to the handler. Your plugin module should export a `handlers` object
 that contains your handler, like so:
 
-{% example "Event-handler plugin for 'newDoclet' events" %}
+* **Event-handler plugin for 'newDoclet' events**
 
 ```js
 exports.handlers = {
@@ -55,7 +55,7 @@ exports.handlers = {
     }
 };
 ```
-{% endexample %}
+
 
 JSDoc fires events in the same order as the underlying code.
 
@@ -99,7 +99,7 @@ parsed and added to the documentation. This might be done to document methods th
 to users, but might not appear in the source code being documented, such as methods provided by an
 external superclass:
 
-{% example "Example" %}
+* **Example**
 
 ```js
 exports.handlers = {
@@ -116,7 +116,7 @@ exports.handlers = {
     }
 };
 ```
-{% endexample %}
+
 
 #### Event: jsdocCommentFound
 
@@ -189,7 +189,7 @@ option][about-commandline].
 
 Below is an example of a `newDoclet` handler that shouts the descriptions:
 
-{% example "Example" %}
+* **Example**
 
 ```js
 exports.handlers = {
@@ -202,7 +202,7 @@ exports.handlers = {
     }
 };
 ```
-{% endexample %}
+
 
 [about-commandline]: about-commandline.html
 
@@ -254,14 +254,14 @@ it is given a chance to modify the doclet.
 Plugins can define tags by exporting a `defineTags` function. That function will be passed a
 dictionary that can be used to define tags, like so:
 
-{% example "Example" %}
+* **Example**
 
 ```js
 exports.defineTags = function(dictionary) {
     // define tags here
 };
 ```
-{% endexample %}
+
 
 #### The Dictionary
 
@@ -295,7 +295,7 @@ synonym for `@constant`; as a result, if you call `normalise('const')`, it retur
 
 A tag's `onTagged` callback can modify the contents of the doclet or tag.
 
-{% example "Defining an onTagged callback" %}
+* **Defining an onTagged callback**
 
 ```js
 dictionary.defineTag('instance', {
@@ -304,18 +304,18 @@ dictionary.defineTag('instance', {
     }
 });
 ```
-{% endexample %}
+
 
 The `defineTag` method returns a `Tag` object, which has a `synonym` method that can be used to
 declare a synonym for the tag.
 
-{% example "Defining a tag synonym" %}
+* **Defining a tag synonym**
 
 ```js
 dictionary.defineTag('exception', { /* options for exception tag */ })
     .synonym('throws');
 ```
-{% endexample %}
+
 
 ### Node Visitors
 
@@ -326,7 +326,7 @@ comments and trigger parser events for any arbitrary piece of code.
 Plugins can define a node visitor by exporting an `astNodeVisitor` object that contains a
 `visitNode` function, like so:
 
-{% example "Example" %}
+* **Example**
 
 ```js
 exports.astNodeVisitor = {
@@ -335,7 +335,7 @@ exports.astNodeVisitor = {
     }
 };
 ```
-{% endexample %}
+
 
 The function is called on each node with the following parameters:
 
@@ -386,7 +386,7 @@ Using these methods creates a better user experience than simply throwing an err
 **Note**: Do not use the `jsdoc/util/error` module to report errors. This module is deprecated and
 will be removed in a future version of JSDoc.
 
-{% example "Reporting a non-fatal error" %}
+* **Reporting a non-fatal error**
 
 ```js
 var logger = require('jsdoc/util/logger');
@@ -401,4 +401,4 @@ exports.handlers = {
     }
 };
 ```
-{% endexample %}
+

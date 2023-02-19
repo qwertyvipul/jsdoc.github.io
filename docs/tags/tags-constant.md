@@ -25,7 +25,7 @@ In this example we are documenting a string constant. Note that although the cod
 support constant declarations, the @const documentation can just as effectively be used on `var`
 declarations.
 
-{% example "A string constant representing the color red" %}
+* **A string constant representing the color red**
 
 ```js
 /** @constant
@@ -37,7 +37,7 @@ const RED = 'FF0000';
 /** @constant {number} */
 var ONE = 1;
 ```
-{% endexample %}
+
 
 Note that the example provides the type in a @type tag. This is optional. Also the optional
 @default tag is used here too, this will automatically add whatever the assigned value is (for

@@ -16,7 +16,7 @@ the @todo tag more than once in a single JSDoc comment.
 
 ## Examples
 
-{% example "Using the @todo tag" %}
+* **Using the @todo tag**
 
 ```js
 /**
@@ -27,4 +27,4 @@ function foo() {
     // write me
 }
 ```
-{% endexample %}
+

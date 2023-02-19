@@ -19,7 +19,7 @@ symbols that are defined locally, then assigned to a global symbol.
 
 Use the @global tag to specify that a symbol should be documented as global.
 
-{% example "Document an inner variable as a global" %}
+* **Document an inner variable as a global**
 
 ```js
 (function() {
@@ -29,4 +29,4 @@ Use the @global tag to specify that a symbol should be documented as global.
     this.foo = foo;
 }).apply(window);
 ```
-{% endexample %}
+

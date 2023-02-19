@@ -26,7 +26,7 @@ the enum members can have optional descriptions added if you wish. Also you can 
 as is shown with "MAYBE" -- by default enum members will be documented with the same type as the
 enum itself.
 
-{% example "A numeric enum, representing three states" %}
+* **A numeric enum, representing three states**
 
 ```js
 /**
@@ -42,4 +42,4 @@ var triState = {
     MAYBE: true
 };
 ```
-{% endexample %}
+

@@ -32,7 +32,7 @@ In the following example, the `hammer` function would normally be documented as 
 That's because, in fact, it is a global function, but it is also a member of the `Tools` namespace,
 and that's how you wish to document it. The solution is to add a @memberof tag:
 
-{% example "Using @memberof" %}
+* **Using @memberof**
 
 ```js
 /** @namespace */
@@ -44,12 +44,12 @@ var hammer = function() {
 
 Tools.hammer = hammer;
 ```
-{% endexample %}
+
 
 For instance members of a class, use the syntax "@memberof ClassName.prototype" or "@memberof
 ClassName#". Alternatively, you can combine "@memberof ClassName" with the "@instance" tag.
 
-{% example "Using @memberof with a class prototype" %}
+* **Using @memberof with a class prototype**
 
 ```js
 /** @class Observable */
@@ -83,7 +83,7 @@ create(
     }
 );
 ```
-{% endexample %}
+
 
 The following example uses the forced @memberof tag, "@memberof!", to document a property of an
 object (Data#point) that is an instance member of a class (Data).
@@ -93,7 +93,7 @@ longname. We can force the property to be linkable by using "@alias" and "@membe
 that Data#point.y should be documented as a member "point.y" of "Data#", rather than a member "y" of
 "point" of "Data#".
 
-{% example "Using @memberof! for object properties" %}
+* **Using @memberof! for object properties**
 
 ```js
 /** @class */
@@ -116,4 +116,4 @@ function Data() {
     };
 }
 ```
-{% endexample %}
+

@@ -42,7 +42,7 @@ copy. If this property is not defined, all files will be copied.
 + `templates.default.staticFiles.excludePattern`: A regular expression indicating which files to
 skip. If this property is not defined, nothing will be skipped.
 
-{% example "Copying a directory of images to the output directory" %}
+* **Copying a directory of images to the output directory**
 
 To copy all of the static files in `./myproject/static` to the output directory:
 
@@ -63,7 +63,7 @@ To copy all of the static files in `./myproject/static` to the output directory:
 If your static files directory contains the file `./myproject/static/img/screen.png`, you can
 display the image in your docs by using the HTML tag `<img src="img/screen.png">`.
 
-{% endexample %}
+
 
 
 ## Showing the current date in the page footer

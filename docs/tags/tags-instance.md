@@ -20,7 +20,7 @@ case it will remain global).
 
 The following example is a longhand way of writing "@function MyNamespace#myFunction":
 
-{% example "Using @instance to make a virtual doclet an instance member" %}
+* **Using @instance to make a virtual doclet an instance member**
 
 ```js
 /** @namespace MyNamespace */
@@ -31,12 +31,12 @@ The following example is a longhand way of writing "@function MyNamespace#myFunc
  * @instance
  */
 ```
-{% endexample %}
+
 
 More usefully, you can use the @instance tag to override the scope that JSDoc infers. For example,
 you can indicate that a static member is used as an instance member:
 
-{% example "Using @instance to identify an instance member" %}
+* **Using @instance to identify an instance member**
 
 ```js
 /** @namespace */
@@ -54,4 +54,4 @@ function fooFactory(fooValue) {
 	return Object.create(BaseObject, props);
 }
 ```
-{% endexample %}
+

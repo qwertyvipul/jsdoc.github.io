@@ -21,7 +21,7 @@ scope will remain global.
 The following example has the same effect as writing "@function MyNamespace.myFunction" and omitting
 the @memberof and @static tags:
 
-{% example "Using @static in a virtual comment" %}
+* **Using @static in a virtual comment**
 
 ```js
 /** @namespace MyNamespace */
@@ -32,11 +32,11 @@ the @memberof and @static tags:
  * @static
  */
 ```
-{% endexample %}
+
 
 The following example forces a module's inner member to be documented as a static member:
 
-{% example "Using @static to override the default scope" %}
+* **Using @static to override the default scope**
 
 ```js
 /** @module Rollerskate */
@@ -48,4 +48,4 @@ The following example forces a module's inner member to be documented as a stati
  */
 var wheel = 1;
 ```
-{% endexample %}
+

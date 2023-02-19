@@ -17,7 +17,7 @@ The @since tag indicates that a class, method, or other symbol was added in a sp
 
 ## Examples
 
-{% example "Using the @since tag" %}
+* **Using the @since tag**
 
 ```js
 /**
@@ -26,4 +26,4 @@ The @since tag indicates that a class, method, or other symbol was added in a sp
  */
 function UserRecord() {}
 ```
-{% endexample %}
+

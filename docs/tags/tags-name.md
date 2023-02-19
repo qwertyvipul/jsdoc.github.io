@@ -33,7 +33,7 @@ other information about the symbol.
 The following example shows how to use the @name tag to document a function that JSDoc would not
 normally recognize.
 
-{% example "Using the @name tag" %}
+* **Using the @name tag**
 
 ```js
 /**
@@ -44,4 +44,4 @@ normally recognize.
  */
 eval("window.highlightSearchTerm = function(term) {};")
 ```
-{% endexample %}
+
