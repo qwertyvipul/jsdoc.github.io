@@ -27,7 +27,7 @@ provide any link text, JSDoc uses the namepath or URL as the link text.
 If you need to link to a tutorial, use the [`{@tutorial}` inline tag][tutorial-inline-tag] instead
 of the `{@link}` tag.
 
-[tutorial-inline-tag]: tags-inline-tutorial.html
+[tutorial-inline-tag]: tags-inline-tutorial
 
 
 ## Link formatting
@@ -51,7 +51,7 @@ created with the `{@linkplain}` tag.
 may not recognize the `{@linkcode}` and `{@linkplain}` tags. In addition, other templates may ignore
 the configuration options for link rendering.
 
-[configuring]: about-configuring-jsdoc.html
+[configuring]: about-configuring-jsdoc
 
 
 ## Examples

@@ -27,8 +27,8 @@ any type; see the [`@type` tag documentation][type-tag] for details.
 If you provide a description, you can make the JSDoc comment more readable by inserting a hyphen
 before the description. Be sure to include a space before and after the hyphen.
 
-[namepath]: about-namepaths.html
-[type-tag]: tags-type.html
+[namepath]: about-namepaths
+[type-tag]: tags-type
 
 
 ## Examples
@@ -266,5 +266,5 @@ function doSomethingAsynchronously(cb) {
 ```
 
 
-[callback-tag]: tags-callback.html
-[type-tag]: tags-type.html
+[callback-tag]: tags-callback
+[type-tag]: tags-type

@@ -20,9 +20,9 @@ repeatedly. These types can then be used within other tags expecting a type, suc
 
 Use the [@callback][callback-tag] tag to document the type of callback functions.
 
-[callback-tag]: tags-callback.html
-[param-tag]: tags-param.html
-[type-tag]: tags-type.html
+[callback-tag]: tags-callback
+[param-tag]: tags-param
+[type-tag]: tags-type
 
 
 ## Examples

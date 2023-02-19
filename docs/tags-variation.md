@@ -27,8 +27,8 @@ You can provide any value with the @variation tag, as long as the combination of
 longname results in a globally unique version of the longname. As a best practice, use a predictable
 pattern for choosing the values, which will make it easier for you to document your code.
 
-[alias-tag]: tags-alias.html
-[name-tag]: tags-name.html
+[alias-tag]: tags-alias
+[name-tag]: tags-name
 
 
 ## Examples

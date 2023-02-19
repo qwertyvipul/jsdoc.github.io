@@ -19,7 +19,7 @@ The @description tag allows you to provide a general description of the symbol y
 The description may include HTML markup. It may also include Markdown formatting if the
 [Markdown plugin][markdown-plugin] is enabled.
 
-[markdown-plugin]: plugins-markdown.html
+[markdown-plugin]: plugins-markdown
 
 
 ## Examples

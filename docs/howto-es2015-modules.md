@@ -36,9 +36,9 @@ Similarly, the namepath for each member of the module will start with `module:`,
 module name. For example, if your `my/pants` module exports a `Jeans` class, and `Jeans` has an
 instance method named `hem`, the instance method's longname is `module:my/pants.Jeans#hem`.
 
-[module-tag]: tags-module.html
-[namepaths]: about-namepaths.html
-[see-tag]: tags-see.html
+[module-tag]: tags-module
+[namepaths]: about-namepaths
+[see-tag]: tags-see
 
 
 ## Exported values

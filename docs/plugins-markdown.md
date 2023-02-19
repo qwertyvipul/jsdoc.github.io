@@ -27,15 +27,15 @@ comment)
 + [`@throws`][throws-tag]
 
 [additional-tags]: #additional-tags
-[author-tag]: tags-author.html
-[classdesc-tag]: tags-classdesc.html
-[description-tag]: tags-description.html
+[author-tag]: tags-author
+[classdesc-tag]: tags-classdesc
+[description-tag]: tags-description
 [marked]: https://github.com/chjj/marked
-[param-tag]: tags-param.html
-[property-tag]: tags-property.html
-[returns-tag]: tags-returns.html
-[see-tag]: tags-see.html
-[throws-tag]: tags-throws.html
+[param-tag]: tags-param
+[property-tag]: tags-property
+[returns-tag]: tags-returns
+[see-tag]: tags-see
+[throws-tag]: tags-throws
 
 
 ## Enabling the Markdown plugin
@@ -52,7 +52,7 @@ To enable the Markdown plugin, add the string `plugins/markdown` to the `plugins
 ```
 
 
-[config-file]: about-configuring-jsdoc.html
+[config-file]: about-configuring-jsdoc
 
 
 ## Converting Markdown in additional JSDoc tags

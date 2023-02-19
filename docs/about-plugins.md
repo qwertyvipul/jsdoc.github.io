@@ -28,7 +28,7 @@ configuration file:
 
 JSDoc executes plugins in the order that they are listed in the configuration file.
 
-[config-file]: about-configuring-jsdoc.html
+[config-file]: about-configuring-jsdoc
 
 
 ## Authoring JSDoc 3 Plugins
@@ -204,7 +204,7 @@ exports.handlers = {
 ```
 
 
-[about-commandline]: about-commandline.html
+[about-commandline]: about-commandline
 
 #### Event: fileComplete
 

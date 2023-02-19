@@ -20,7 +20,7 @@ The `@returns` tag documents the value that a function returns.
 If you are documenting a generator function, use the [`@yields` tag][yields-tag] instead of this
 tag.
 
-[yields-tag]: tags-yields.html
+[yields-tag]: tags-yields
 
 
 ## Examples

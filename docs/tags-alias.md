@@ -147,4 +147,4 @@ var objectB = (function() {
 ```
 
 
-[lends-tag]: tags-lends.html
+[lends-tag]: tags-lends

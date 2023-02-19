@@ -36,10 +36,10 @@ treated as an inner variable with the namepath `Parent~child`. In other words, t
 will have an inner scope, even though the variable is public. To change a doclet's scope, use the
 [`@instance`][instance-tag], [`@static`][static-tag], and [`@global`][global-tag] tags.
 
-[access-option]: about-commandline.html
-[global-tag]: tags-global.html
-[instance-tag]: tags-instance.html
-[static-tag]: tags-static.html
+[access-option]: about-commandline
+[global-tag]: tags-global
+[instance-tag]: tags-instance
+[static-tag]: tags-static
 
 
 ## Examples

@@ -20,7 +20,7 @@ in JSDoc 3.5.0 and later.
 If you are documenting a regular function, use the [`@returns` tag][returns-tag] instead of this
 tag.
 
-[returns-tag]: tags-returns.html
+[returns-tag]: tags-returns
 
 
 ## Examples

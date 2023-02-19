@@ -43,11 +43,11 @@ Option|Description
 `-X`, `--explain`|Dump all doclets to the console in JSON format, then exit.
 
 
-[config-file]: about-configuring-jsdoc.html
-[including-readme]: about-including-readme.html
+[config-file]: about-configuring-jsdoc
+[including-readme]: about-including-readme
 [md-file]: http://daringfireball.net/projects/markdown/
-[private-tag]: tags-private.html
-[tutorials]: about-tutorials.html
+[private-tag]: tags-private
+[tutorials]: about-tutorials
 
 
 ## Examples

@@ -16,7 +16,7 @@ synonyms:
 This marks an object as being a function, even though it may not appear to be one to the parser. It
 sets the doclet's [@kind][kind-tag] to 'function'.
 
-[kind-tag]: tags-kind.html
+[kind-tag]: tags-kind
 
 
 ## Examples
@@ -44,4 +44,4 @@ of value `paginate` will hold when it is run.
 ```
 
 
-[member-tag]: tags-member.html
+[member-tag]: tags-member

@@ -35,7 +35,7 @@ behavior.
 
 The `@protected` tag is equivalent to `@access protected`.
 
-[access-option]: about-commandline.html
+[access-option]: about-commandline
 
 
 ## Examples

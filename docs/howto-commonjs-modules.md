@@ -22,7 +22,7 @@ known as "RequireJS modules"), see [AMD Modules][amd-modules].
 
 [commonjs-modules]: http://wiki.commonjs.org/wiki/Modules/1.1
 [node-modules]: http://nodejs.org/api/modules.html
-[amd-modules]: howto-amd-modules.html
+[amd-modules]: howto-amd-modules
 
 
 ## Module identifiers
@@ -52,9 +52,9 @@ Similarly, the namepath for each member of the module will start with `module:`,
 module name. For example, if your `my/pants` module exports a `Jeans` constructor, and `Jeans` has
 an instance method named `hem`, the instance method's longname is `module:my/pants.Jeans#hem`.
 
-[module-tag]: tags-module.html
-[namepaths]: about-namepaths.html
-[see-tag]: tags-see.html
+[module-tag]: tags-module
+[namepaths]: about-namepaths
+[see-tag]: tags-see
 
 
 ## Properties of the 'exports' object
@@ -151,7 +151,7 @@ exports.wash = function() {
 ```
 
 
-[alias-tag]: tags-alias.html
+[alias-tag]: tags-alias
 
 
 ## Values assigned to 'module.exports'
@@ -293,7 +293,7 @@ module.exports = 'perniciousness';
 ```
 
 
-[type-tag]: tags-type.html
+[type-tag]: tags-type
 
 
 ## Values assigned to 'module.exports' and local variables
@@ -324,8 +324,8 @@ var mixer = module.exports = {
 ```
 
 
-[alias-tag]: tags-alias.html
-[exports-tag]: tags-exports.html
+[alias-tag]: tags-alias
+[exports-tag]: tags-exports
 
 
 ## Properties added to 'this'

@@ -37,7 +37,7 @@ namespace is private, the members' namepath will not include the namespace.
 
 The `@private` tag is equivalent to `@access private`.
 
-[access-option]: about-commandline.html
+[access-option]: about-commandline
 
 
 ## Examples

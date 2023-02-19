@@ -16,7 +16,7 @@ related:
 The `@listens` tag indicates that a symbol listens for the specified event. Use the
 [`@event tag`][event-tag] to document the event's content.
 
-[event-tag]: tags-event.html
+[event-tag]: tags-event
 
 
 ## Example

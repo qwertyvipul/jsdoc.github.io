@@ -21,7 +21,7 @@ tag][tags-class].
 For ES2015 classes, use this tag in the JSDoc comment for your constructor. If your class does not
 have an explicit constructor, use this tag in the JSDoc comment for the class.
 
-[tags-class]: tags-class.html
+[tags-class]: tags-class
 
 
 ## Examples

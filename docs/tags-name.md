@@ -25,7 +25,7 @@ treat your documentation comment in isolation. In many cases, it is best to use 
 [@alias tag][alias-tag] instead, which changes a symbol's name in the documentation but preserves
 other information about the symbol.
 
-[alias-tag]: tags-alias.html
+[alias-tag]: tags-alias
 
 
 ## Examples

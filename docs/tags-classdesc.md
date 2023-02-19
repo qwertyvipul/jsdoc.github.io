@@ -22,7 +22,7 @@ versions. As of version 3, the syntax and functionality of the @class tag now ex
 @constructor tag, and the @classdesc tag more explicitly communicates its purpose: to document a
 class's description.
 
-[class-tag]: tags-class.html
+[class-tag]: tags-class
 
 
 ## Examples

@@ -42,8 +42,8 @@ jsdoc -r src/     # module name 'test'
 ```
 
 
-[link-tag]: tags-inline-link.html
-[see-tag]: tags-see.html
+[link-tag]: tags-inline-link
+[see-tag]: tags-see
 
 
 ## Examples
@@ -101,4 +101,4 @@ exports.darken = function (color, shade) {};
 
 See [Documenting JavaScript Modules][modules] for further examples.
 
-[modules]: howto-commonjs-modules.html
+[modules]: howto-commonjs-modules

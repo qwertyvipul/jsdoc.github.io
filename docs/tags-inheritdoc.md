@@ -17,7 +17,7 @@ not add a JSDoc comment to a symbol, the symbol will inherit documentation from 
 The presence of the `@inheritdoc` tag implies the presence of the [`@override` tag][override-tag].
 
 [closure]: https://developers.google.com/closure/compiler/
-[override-tag]: tags-override.html
+[override-tag]: tags-override
 
 
 ## Examples

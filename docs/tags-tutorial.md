@@ -19,7 +19,7 @@ See the [tutorials overview][tutorials] for instructions on creating tutorials.
 
 You can use the `@tutorial` tag more than once in a single JSDoc comment.
 
-[tutorials]: about-tutorials.html
+[tutorials]: about-tutorials
 
 
 ## Examples

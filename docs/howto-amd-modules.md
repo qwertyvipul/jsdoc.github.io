@@ -16,9 +16,9 @@ how to document an AMD module for JSDoc, based on the coding conventions that yo
 If you're documenting CommonJS or Node.js modules, see [CommonJS Modules][commonjs-modules] for
 instructions.
 
-[amd-modules]: howto-amd-modules.html
+[amd-modules]: howto-amd-modules
 [amd-api]: https://github.com/amdjs/amdjs-api/blob/master/AMD.md
-[commonjs-modules]: howto-commonjs-modules.html
+[commonjs-modules]: howto-commonjs-modules
 [require-js]: http://requirejs.org/
 
 
@@ -50,10 +50,10 @@ Similarly, the namepath for each member of the module will start with `module:`,
 module name. For example, if your `my/pants` module exports a `Jeans` constructor, and `Jeans` has
 an instance method named `hem`, the instance method's longname is `module:my/pants.Jeans#hem`.
 
-[exports-tag]: tags-exports.html
-[module-tag]: tags-module.html
-[namepaths]: about-namepaths.html
-[see-tag]: tags-see.html
+[exports-tag]: tags-exports
+[module-tag]: tags-module
+[namepaths]: about-namepaths
+[see-tag]: tags-see
 
 
 ## Function that returns an object literal
@@ -90,7 +90,7 @@ define('my/shirt', function() {
 ```
 
 
-[exports-tag]: tags-exports.html
+[exports-tag]: tags-exports
 
 
 ## Function that returns another function
@@ -127,8 +127,8 @@ define('my/jacket', function() {
 ```
 
 
-[alias-tag]: tags-alias.html
-[module-tag]: tags-module.html
+[alias-tag]: tags-alias
+[module-tag]: tags-module
 
 
 ## Module declared in a return statement
@@ -158,8 +158,8 @@ define('my/shirt', function() {
 ```
 
 
-[alias-tag]: tags-alias.html
-[module-tag]: tags-module.html
+[alias-tag]: tags-alias
+[module-tag]: tags-module
 
 
 ## Module object passed to a function
@@ -189,7 +189,7 @@ define('my/jacket', function(
 ```
 
 
-[exports-tag]: tags-exports.html
+[exports-tag]: tags-exports
 
 
 ## Multiple modules defined in one file
@@ -247,4 +247,4 @@ define('tag', function() {
 ```
 
 
-[exports-tag]: tags-exports.html
+[exports-tag]: tags-exports

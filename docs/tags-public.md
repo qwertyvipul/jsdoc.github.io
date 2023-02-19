@@ -23,9 +23,9 @@ In JSDoc 3, the `@public` tag does _not_ affect a symbol's scope. Use the
 [`@instance`][instance-tag], [`@static`][static-tag], and [`@global`][global-tag] tags to change a
 symbol's scope.
 
-[global-tag]: tags-global.html
-[instance-tag]: tags-instance.html
-[static-tag]: tags-static.html
+[global-tag]: tags-global
+[instance-tag]: tags-instance
+[static-tag]: tags-static
 
 
 ## Examples

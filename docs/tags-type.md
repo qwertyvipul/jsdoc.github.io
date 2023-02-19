@@ -226,7 +226,7 @@ var props;
     </td>
     <td>
         <p>
-            You can document complex types using the <a href="tags-typedef.html">@typedef</a> tag, then refer to the type definition elsewhere in your documentation.
+            You can document complex types using the <a href="tags-typedef">@typedef</a> tag, then refer to the type definition elsewhere in your documentation.
         </p>
     </td>
 </tr>
@@ -262,4 +262,4 @@ var FOO = 1;
 ```
 
 [closure]: https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler#type-expressions
-[param-tag]: tags-param.html
+[param-tag]: tags-param

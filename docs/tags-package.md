@@ -36,7 +36,7 @@ behavior.
 
 The `@package` tag is equivalent to `@access package`.
 
-[access-option]: about-commandline.html
+[access-option]: about-commandline
 
 
 ## Examples

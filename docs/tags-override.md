@@ -20,7 +20,7 @@ the `@override` tag. The presence of the `@inheritdoc` tag implies the presence 
 tag.
 
 [closure]: https://developers.google.com/closure/compiler/
-[inheritdoc-tag]: tags-inheritdoc.html
+[inheritdoc-tag]: tags-inheritdoc
 
 
 ## Example

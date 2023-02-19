@@ -11,7 +11,7 @@ content of generated documentation.
 To use these options, you must [create a configuration file][about-config] for JSDoc and set the
 appropriate options in the configuration file.
 
-[about-config]: about-configuring-jsdoc.html
+[about-config]: about-configuring-jsdoc
 
 
 ## Generating pretty-printed source files

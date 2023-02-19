@@ -17,7 +17,7 @@ related:
 The @mixes tag indicates that the current object mixes in all the members from `OtherObjectPath`,
 which is a [@mixin][mixin-tag].
 
-[mixin-tag]: tags-mixin.html
+[mixin-tag]: tags-mixin
 
 
 ## Examples
@@ -76,4 +76,4 @@ mix(Eventful).into(FormButton.prototype);
 ```
 
 
-[mixin-tag]: tags-mixin.html
+[mixin-tag]: tags-mixin

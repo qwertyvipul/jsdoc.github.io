@@ -22,8 +22,8 @@ or [@instance][instance-tag] tag.
 The "forced" @memberof tag, @memberof!, forces the object to be documented as belonging to a specific
 parent even if it appears to have a different parent.
 
-[inner-tag]: tags-inner.html
-[instance-tag]: tags-instance.html
+[inner-tag]: tags-inner
+[instance-tag]: tags-instance
 
 
 ## Examples

@@ -43,9 +43,9 @@ module.exports = {
 For a more comprehensive example of a JSON configuration file, see the file
 [`conf.json.EXAMPLE`][conf-json-example].
 
-[about-commandline]: about-commandline.html
+[about-commandline]: about-commandline
 [conf-json-example]: https://github.com/jsdoc3/jsdoc/blob/master/conf.json.EXAMPLE
-[markdown]: plugins-markdown.html
+[markdown]: plugins-markdown
 
 ## Default configuration options
 
@@ -90,10 +90,10 @@ This means:
 
 These options and others are explained in the following sections.
 
-[about-commandline]: about-commandline.html
+[about-commandline]: about-commandline
 [closure-tags]: https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler#jsdoc-tags
-[es2015-modules]: howto-es2015-modules.html
-[tags-inline-link]: tags-inline-link.html
+[es2015-modules]: howto-es2015-modules
+[tags-inline-link]: tags-inline-link
 
 ## Configuring plugins
 
@@ -121,8 +121,8 @@ You can configure the Markdown plugin by adding a `markdown` object to your conf
 [Configuring the Markdown Plugin][markdown] for details.
 
 [jsdoc-plugins]: https://github.com/jsdoc3/jsdoc/tree/master/plugins
-[markdown]: plugins-markdown.html
-[plugins]: about-plugins.html
+[markdown]: plugins-markdown
+[plugins]: about-plugins
 
 ## Specifying recursion depth
 
@@ -139,7 +139,7 @@ search for input files.
 }
 ```
 
-[about-commandline]: about-commandline.html
+[about-commandline]: about-commandline
 
 ## Specifying input files
 
@@ -233,7 +233,7 @@ Here's why:
 3. JSDoc applies `source.excludePattern`, which removes `myProject/_private/a.js`.
 4. JSDoc applies `source.exclude`, which removes `myProject/lib/ignore.js`.
 
-[about-commandline]: about-commandline.html
+[about-commandline]: about-commandline
 
 ## Specifying the source type
 
@@ -258,7 +258,7 @@ You can put many of JSDoc's [command-line options][options] into the configurati
 specifying them on the command line. To do this, add the long names of the relevant options into an
 `opts` section of the configuration file, with the value set to the option's value.
 
-[options]: about-commandline.html
+[options]: about-commandline
 
 -   **JSON configuration file with command-line options**
 
@@ -349,5 +349,5 @@ but `{@link MyNamespace.myFunction}` will be in monospace.
 
 If `templates.cleverLinks` is true, `templates.monospaceLinks` is ignored.
 
-[default-template]: about-configuring-default-template.html
-[inline-link-tag]: tags-inline-link.html
+[default-template]: about-configuring-default-template
+[inline-link-tag]: tags-inline-link

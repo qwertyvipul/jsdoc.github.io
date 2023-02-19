@@ -25,8 +25,8 @@ The namepath for an external symbol always uses the prefix `external:` (for exam
 outside of your project. See "[Documenting a nested external symbol][nested-external]" for an
 example.
 
-[augments-tag]: tags-augments.html
-[memberof-tag]: tags-memberof.html
+[augments-tag]: tags-augments
+[memberof-tag]: tags-memberof
 [nested-external]: #nested-external-symbol
 
 ## Examples
@@ -92,7 +92,7 @@ class `XMLHttpRequest`:
 ```
 
 
-[augments-tag]: tags-augments.html
+[augments-tag]: tags-augments
 
 <a name="nested-external-symbol"></a>
 You should only add the `@external` tag to the highest-level symbol that is defined outside of your

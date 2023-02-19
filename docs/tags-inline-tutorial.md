@@ -23,7 +23,7 @@ If you don't provide any link text, JSDoc uses the tutorial's title as the link 
 If you need to link to a namepath or a URL, use the [`{@link}` inline tag][link-inline-tag] instead
 of the `{@tutorial}` tag.
 
-[link-inline-tag]: tags-inline-link.html
+[link-inline-tag]: tags-inline-link
 
 
 ## Examples
