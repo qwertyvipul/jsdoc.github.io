@@ -8,8 +8,6 @@ related:
     - tags-property.html
 ---
 
-# @type
-
 ## Syntax
 
 `@type {typeName}`
