@@ -1,3 +1,5 @@
+// @ts-check
+
 const fs = require('fs');
 const path = require('path');
 
@@ -14,8 +16,6 @@ fileNames.forEach((fileName) => {
     else if (fileName.startsWith('tags-'))
         blockTags.push(fileName.replace('.md', ''));
 });
-
-// @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
