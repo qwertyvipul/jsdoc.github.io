@@ -10,7 +10,7 @@ const config = {
 
     // Set the production url of your site here
     url: 'https://jsdoc.app',
-    baseUrl: '/',
+    baseUrl: process.env.BASE_URL ?? '/',
     organizationName: 'JSDoc',
     projectName: 'jsdoc.github.io',
 
