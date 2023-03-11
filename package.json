@@ -1,7 +1,6 @@
 {
   "name": "jsdoc.github.io",
   "version": "0.0.0",
-  "private": true,
   "description": "Documentation website for JSDoc.",
   "repository": {
     "type": "git",
@@ -33,6 +32,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
+  "private": true,
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.3.1"
   },
