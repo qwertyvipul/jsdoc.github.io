@@ -1,7 +1,17 @@
 {
-  "name": "",
+  "name": "jsdoc.github.io",
   "version": "0.0.0",
   "private": true,
+  "description": "Documentation website for JSDoc.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsdoc/jsdoc.github.io.git"
+  },
+  "license": "CC BY-SA 3.0",
+  "bugs": {
+    "url": "https://github.com/jsdoc/jsdoc.github.io/issues"
+  },
+  "homepage": "https://github.com/jsdoc/jsdoc.github.io",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
