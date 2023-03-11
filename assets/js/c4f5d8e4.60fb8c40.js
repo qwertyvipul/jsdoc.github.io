@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjsdoc_github_io=self.webpackChunkjsdoc_github_io||[]).push([[4195],{2841:(t,e,s)=>{s.r(e),s.d(e,{default:()=>c});var u=s(7294),a=s(6550);const c=()=>u.createElement(a.l_,{to:"/about-getting-started"})}}]);
