@@ -13,7 +13,7 @@ version of the item.
 
 ## Examples
 
-* **Using the @version tag**
+- **Using the @version tag**
 
 ```js
 /**

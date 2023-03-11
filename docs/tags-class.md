@@ -20,7 +20,7 @@ keyword to return an instance.
 
 ## Examples
 
-* **A function that constructs Person instances.**
+- **A function that constructs Person instances.**
 
 ```js
 /**

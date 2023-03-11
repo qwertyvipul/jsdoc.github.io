@@ -23,7 +23,7 @@ The @fires tag indicates that a method can fire a specified type of event when i
 
 ## Examples
 
-* **Method that fires a 'drain' event**
+- **Method that fires a 'drain' event**
 
 ```js
 /**

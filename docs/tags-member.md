@@ -17,7 +17,7 @@ The @member tag identifies any member that does not have a more specialized kind
 
 ## Examples
 
-* **Using @member with Data#point**
+- **Using @member with Data#point**
 
 ```js
 /** @class */
@@ -30,7 +30,7 @@ function Data() {
 
 Here is an example of using @var, a synonym of @member, to document a (virtual) variable 'foo'.
 
-* **Using @var to document a virtual member**
+- **Using @var to document a virtual member**
 
 ```js
 /**

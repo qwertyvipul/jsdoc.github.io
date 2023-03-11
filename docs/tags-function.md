@@ -21,7 +21,7 @@ sets the doclet's [@kind][kind-tag] to 'function'.
 
 ## Examples
 
-* **Using @function to mark a function.**
+- **Using @function to mark a function.**
 
 ```js
 /** @function */
@@ -33,7 +33,7 @@ Without the @function tag, the `paginate` object would be documented as a generi
 [@member][member-tag]), because it isn't possible to tell from examining the line of code what type
 of value `paginate` will hold when it is run.
 
-* **Using @function with a name.**
+- **Using @function with a name.**
 
 ```js
 /** @function myFunction */

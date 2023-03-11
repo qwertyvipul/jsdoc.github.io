@@ -21,7 +21,7 @@ to duplicate the same documentation in two places.
 In this example there exists documentation for the "trstr" function, but "util.trim" is just a
 reference to that same function by a different name.
 
-* **Duplicate the documentation for trstr as util.trim**
+- **Duplicate the documentation for trstr as util.trim**
 
 ```js
 /**

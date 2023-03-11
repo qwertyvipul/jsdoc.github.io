@@ -19,7 +19,7 @@ class.
 
 ## Examples
 
-* **Using the @constructs tag with @lends**
+- **Using the @constructs tag with @lends**
 
 ```js
 var Person = makeClass(
@@ -38,7 +38,7 @@ var Person = makeClass(
 ```
 
 
-* **Without @lends you must provide the name of the class**
+- **Without @lends you must provide the name of the class**
 
 ```js
 makeClass('Menu',

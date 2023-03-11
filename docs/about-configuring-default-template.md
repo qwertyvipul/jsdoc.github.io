@@ -42,7 +42,7 @@ copy. If this property is not defined, all files will be copied.
 + `templates.default.staticFiles.excludePattern`: A regular expression indicating which files to
 skip. If this property is not defined, nothing will be skipped.
 
-* **Copying a directory of images to the output directory**
+- **Copying a directory of images to the output directory**
 
 To copy all of the static files in `./myproject/static` to the output directory:
 

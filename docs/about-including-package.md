@@ -25,14 +25,14 @@ The `package.json` file must use [npm's package format][package-json].
 
 ## Examples
 
-* **Including a package file in your source paths**
+- **Including a package file in your source paths**
 
 ```
 jsdoc path/to/js path/to/package/package.json
 ```
 
 
-* **Using the -P/--package option**
+- **Using the -P/--package option**
 
 ```
 jsdoc --package path/to/package/package-docs.json path/to/js

@@ -19,7 +19,7 @@ in the generated documentation's `index.html` file.
 
 ## Examples
 
-* **Including a README file in your source paths**
+- **Including a README file in your source paths**
 
 ```
 jsdoc path/to/js path/to/readme/README.md
@@ -27,7 +27,7 @@ jsdoc path/to/js path/to/readme/README.md
 
 
 
-* **Using the -R/--readme option**
+- **Using the -R/--readme option**
 
 ```
 jsdoc --readme path/to/readme/README path/to/js

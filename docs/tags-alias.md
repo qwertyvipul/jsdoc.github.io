@@ -55,7 +55,7 @@ the constructor for the class "trackr.CookieManager". Within the function, JSDoc
 `this` keyword relative to trackr.CookieManager, so the "value" method has the namepath
 "trackr.CookieManager#value".
 
-* **Using @alias with an anonymous constructor function**
+- **Using @alias with an anonymous constructor function**
 
 ```js
 Klass('trackr.CookieManager',
@@ -78,7 +78,7 @@ You can also use the @alias tag with members that are created within an immediat
 expression (IIFE). The @alias tag tells JSDoc that these members are exposed outside of the IIFE's
 scope.
 
-* **Using @alias for static members of a namespace**
+- **Using @alias for static members of a namespace**
 
 ```js
 /** @namespace */
@@ -102,7 +102,7 @@ var Apple = {};
 For members that are defined within an object literal, you can use the @alias tag as an alternative
 to the [@lends][lends-tag] tag.
 
-* **Using @alias for an object literal**
+- **Using @alias for an object literal**
 
 ```js
 // Documenting objectA with @alias

@@ -20,7 +20,7 @@ process.
 
 ## Examples
 
-* **Using the @requires tag**
+- **Using the @requires tag**
 
 ```js
 /**

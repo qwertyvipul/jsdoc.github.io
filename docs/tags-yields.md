@@ -25,7 +25,7 @@ tag.
 
 ## Examples
 
-* **@yields tag with a type**
+- **@yields tag with a type**
 
 ```js
 /**
@@ -37,7 +37,7 @@ function* fibonacci() {}
 ```
 
 
-* **@yields tag with a type and description**
+- **@yields tag with a type and description**
 
 ```js
 /**

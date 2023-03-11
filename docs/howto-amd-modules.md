@@ -62,7 +62,7 @@ If you define your AMD module as a function that returns an object literal, use 
 [`@exports` tag][exports-tag] to document the module's name. JSDoc will automatically detect that
 the object's properties are members of the module.
 
-* **Function that returns an object literal**
+- **Function that returns an object literal**
 
 ```js
 define('my/shirt', function() {
@@ -100,7 +100,7 @@ can use a standalone comment with a [`@module` tag][module-tag] to document the 
 use an [`@alias` tag][alias-tag] to tell JSDoc that the function uses the same longname as the
 module.
 
-* **Function that returns a constructor**
+- **Function that returns a constructor**
 
 ```js
 /**
@@ -137,7 +137,7 @@ If you declare your module object in a function's `return` statement, you can us
 comment with a [`@module` tag][module-tag] to document the module. You can then add an
 [`@alias` tag][alias-tag] to tell JSDoc that the module object has the same longname as the module.
 
-* **Module declared in a return statement**
+- **Module declared in a return statement**
 
 ```js
 /**
@@ -168,7 +168,7 @@ If the module object is passed into the function that defines your module, you c
 module by adding an [`@exports` tag][exports-tag] to the function parameter. This pattern is
 supported in JSDoc 3.3.0 and later.
 
-* **Module object passed to a function**
+- **Module object passed to a function**
 
 ```js
 define('my/jacket', function(
@@ -197,7 +197,7 @@ define('my/jacket', function(
 If you define more than one AMD module in a single JavaScript file, use the
 [`@exports` tag][exports-tag] to document each module object.
 
-* **Multiple AMD modules defined in one file**
+- **Multiple AMD modules defined in one file**
 
 ```js
 // one module

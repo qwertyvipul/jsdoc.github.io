@@ -24,7 +24,7 @@ In this example, we want to use a helper function to make a class named `Person`
 instance methods named `initialize` and `say`. This is similar to how some popular frameworks
 handle class creation.
 
-* **Example class**
+- **Example class**
 
 ```js
 // We want to document this as being a class
@@ -49,7 +49,7 @@ being "loaned" to a variable named `Person`. We must also add comments to each o
 
 The following example gets us closer to what we want:
 
-* **Documented as static methods**
+- **Documented as static methods**
 
 ```js
 /** @class */
@@ -81,7 +81,7 @@ of the `Person` class. That is possibly what you meant, but in this case we want
 `say` to belong to the instances of the `Person` class. So we change things slightly by lending the
 methods to the class's prototype:
 
-* **Documented as instance methods**
+- **Documented as instance methods**
 
 ```js
 /** @class */
@@ -113,7 +113,7 @@ instances, but a `Person` instance does not have its own `initialize` method. Th
 the `@constructs` tag to the loaned function. Remember to remove the `@class` tag as well, or else
 two classes will be documented.
 
-* **Documented with a constructor**
+- **Documented with a constructor**
 
 ```js
 var Person = makeClass(

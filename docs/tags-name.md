@@ -33,7 +33,7 @@ other information about the symbol.
 The following example shows how to use the @name tag to document a function that JSDoc would not
 normally recognize.
 
-* **Using the @name tag**
+- **Using the @name tag**
 
 ```js
 /**

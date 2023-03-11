@@ -27,7 +27,7 @@ tell JSDoc that the function is asynchronous.
 
 The following example shows a virtual comment that uses the `@async` tag:
 
-* **Virtual comment with @async tag**
+- **Virtual comment with @async tag**
 
 ```js
 /**

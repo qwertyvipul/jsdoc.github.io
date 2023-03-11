@@ -34,7 +34,7 @@ name occurs.
 The following examples show how to document an event in the `Hurl` class called `snowball`. The
 event contains an object with a single property.
 
-* **Documenting a function call as an event**
+- **Documenting a function call as an event**
 
 ```js
 /**
@@ -57,7 +57,7 @@ Hurl.prototype.snowball = function() {
 ```
 
 
-* **Using a named doclet to document an event**
+- **Using a named doclet to document an event**
 
 ```js
 /**

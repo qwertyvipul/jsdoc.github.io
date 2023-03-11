@@ -25,7 +25,7 @@ tag.
 
 ## Examples
 
-* **Return value with a type**
+- **Return value with a type**
 
 ```js
 /**
@@ -40,7 +40,7 @@ function sum(a, b) {
 ```
 
 
-* **Return value with a type and description**
+- **Return value with a type and description**
 
 ```js
 /**
@@ -55,7 +55,7 @@ function sum(a, b) {
 ```
 
 
-* **Return value with multiple types**
+- **Return value with multiple types**
 
 ```js
 /**
@@ -74,7 +74,7 @@ function sum(a, b, retArr) {
 ```
 
 
-* **Returns a promise**
+- **Returns a promise**
 
 ```js
 /**

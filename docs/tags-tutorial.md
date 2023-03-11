@@ -27,7 +27,7 @@ You can use the `@tutorial` tag more than once in a single JSDoc comment.
 In the following example, the documentation for `MyClass` will link to the tutorials that have the
 identifiers `tutorial-1` and `tutorial-2`:
 
-* **Using the @tutorial tag**
+- **Using the @tutorial tag**
 
 ```js
 /**

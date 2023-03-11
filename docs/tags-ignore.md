@@ -22,7 +22,7 @@ namespaces, but with incomplete names.
 
 In the following example, `Jacket` and `Jacket#color` will not appear in the documentation.
 
-* **Class with `@ignore` tag**
+- **Class with `@ignore` tag**
 
 ```js
 /**
@@ -40,7 +40,7 @@ In the following example, the `Clothes` namespace contains a `Jacket` class. The
 be added to both `Clothes` and `Clothes.Jacket`. `Clothes`, `Clothes.Jacket`, and
 `Clothes.Jacket#color` will not appear in the documentation.
 
-* **Namespace with child class**
+- **Namespace with child class**
 
 ```js
 /**

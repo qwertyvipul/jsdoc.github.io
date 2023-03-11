@@ -43,7 +43,7 @@ The `@protected` tag is equivalent to `@access protected`.
 In the following example, the instance member `Thingy#_bar` appears in the generated documentation,
 but with an annotation indicating that it is protected:
 
-* **Using the @protected tag**
+- **Using the @protected tag**
 
 ```js
 /** @constructor */

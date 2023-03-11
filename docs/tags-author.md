@@ -20,7 +20,7 @@ address to a `mailto:` link.
 
 ## Examples
 
-* **Documenting the author of an item**
+- **Documenting the author of an item**
 
 ```js
 /**

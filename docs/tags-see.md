@@ -20,7 +20,7 @@ JSDoc's default template automatically converts the namepath to a link.
 
 ## Examples
 
-* **Using the @see tag**
+- **Using the @see tag**
 
 ```js
 /**

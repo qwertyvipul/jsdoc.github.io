@@ -36,7 +36,7 @@ before the description. Be sure to include a space before and after the hyphen.
 ### Names, types, and descriptions
 The following examples show how to include names, types, and descriptions in a `@param` tag.
 
-* **Name only**
+- **Name only**
 
 ```js
 /**
@@ -48,7 +48,7 @@ function sayHello(somebody) {
 ```
 
 
-* **Name and type**
+- **Name and type**
 
 ```js
 /**
@@ -60,7 +60,7 @@ function sayHello(somebody) {
 ```
 
 
-* **Name, type, and description**
+- **Name, type, and description**
 
 ```js
 /**
@@ -75,7 +75,7 @@ function sayHello(somebody) {
 You can add a hyphen before the description to make it more readable. Be sure to include a space
 before and after the hyphen.
 
-* **Name, type, and description, with a hyphen before the description**
+- **Name, type, and description, with a hyphen before the description**
 
 ```js
 /**
@@ -92,7 +92,7 @@ If a parameter is expected to have a specific property, you can document that pr
 an additional `@param` tag. For example, if an `employee` parameter is expected to have `name` and
 `department` properties, you can document it as follows:
 
-* **Documenting a parameter's properties**
+- **Documenting a parameter's properties**
 
 ```js
 /**
@@ -110,7 +110,7 @@ Project.prototype.assign = function(employee) {
 If a parameter is destructured without an explicit name, you can give the object an appropriate one and
 document its properties.
 
-* **Documenting a destructuring parameter**
+- **Documenting a destructuring parameter**
 ```js
 /**
  * Assign the project to an employee.
@@ -127,7 +127,7 @@ Project.prototype.assign = function({ name, department }) {
 You can also combine this syntax with JSDoc's syntax for array parameters. For example, if multiple
 employees can be assigned to a project:
 
-* **Documenting properties of values in an array**
+- **Documenting properties of values in an array**
 
 ```js
 /**
@@ -145,7 +145,7 @@ Project.prototype.assign = function(employees) {
 ### Optional parameters and default values
 The following examples show how to indicate that a parameter is optional and has a default value.
 
-* **An optional parameter (using JSDoc syntax)**
+- **An optional parameter (using JSDoc syntax)**
 
 ```js
 /**
@@ -160,7 +160,7 @@ function sayHello(somebody) {
 ```
 
 
-* **An optional parameter (using Google Closure Compiler syntax)**
+- **An optional parameter (using Google Closure Compiler syntax)**
 
 ```js
 /**
@@ -175,7 +175,7 @@ function sayHello(somebody) {
 ```
 
 
-* **An optional parameter and default value**
+- **An optional parameter and default value**
 
 ```js
 /**
@@ -195,7 +195,7 @@ The following examples show how to use type expressions to indicate that a param
 multiple types (or any type), and that a parameter can be provided more than once. See the
 [`@type` tag documentation][type-tag] for details about the type expressions that JSDoc supports.
 
-* **Allows one type OR another type (type union)**
+- **Allows one type OR another type (type union)**
 
 ```js
 /**
@@ -212,7 +212,7 @@ function sayHello(somebody) {
 ```
 
 
-* **Allows any type**
+- **Allows any type**
 
 ```js
 /**
@@ -224,7 +224,7 @@ function sayHello(somebody) {
 ```
 
 
-* **Allows a parameter to be repeated**
+- **Allows a parameter to be repeated**
 
 ```js
 /**
@@ -245,7 +245,7 @@ function sum(num) {
 If a parameter accepts a callback function, you can use the [`@callback` tag][callback-tag] to
 define a callback type, then include the callback type in the `@param` tag.
 
-* **Parameters that accept a callback**
+- **Parameters that accept a callback**
 
 ```js
 /**

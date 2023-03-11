@@ -18,7 +18,7 @@ code. ES 2015 classes are supported in JSDoc 3.4.0 and later.
 The following example shows how to document a simple class with a constructor, two instance methods,
 and one static method:
 
-* **Simple ES 2015 class**
+- **Simple ES 2015 class**
 
 ```js
 /** Class representing a point. */
@@ -64,7 +64,7 @@ class Point {
 You can also document classes that are defined in a class expression, which assigns the class to a
 variable or constant:
 
-* **ES 2015 class expression**
+- **ES 2015 class expression**
 
 ```js
 /** Class representing a point. */
@@ -83,7 +83,7 @@ class you're extending. You do this with the [`@augments` (or `@extends`) tag][a
 
 For example, to extend the `Point` class shown above:
 
-* **Extending an ES 2015 class**
+- **Extending an ES 2015 class**
 
 ```js
 /**

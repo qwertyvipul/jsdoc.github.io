@@ -30,7 +30,7 @@ suppose I have a file `test.js`, located in the `src` directory, that contains t
 `/** @module */`. Here are some scenarios for running JSDoc and the resulting module names for
 test.js:
 
-* **Derived module names if none is provided.**
+- **Derived module names if none is provided.**
 
 ```
 # from src/
@@ -52,7 +52,7 @@ The following example shows the namepaths that are used for symbols in a module.
 is a module-private, or "inner," variable--it can be only accessed within the module. The second
 symbol is a static function that is exported by the module.
 
-* **Basic @module use**
+- **Basic @module use**
 
 ```js
 /** @module myModule */
@@ -71,7 +71,7 @@ infers that the symbol is a static member of the module.
 In the following example, the Book class is documented as a static member, "module:bookshelf.Book",
 with one instance member, "module:bookshelf.Book#title".
 
-* **Defining exported symbols as a member of 'this'**
+- **Defining exported symbols as a member of 'this'**
 
 ```js
 /** @module bookshelf */
@@ -86,7 +86,7 @@ this.Book = function (title) {
 In the following example, the two functions have the namepaths "module:color/mixer.blend" and
 "module:color/mixer.darken".
 
-* **Defining exported symbols as a member of 'module.exports' or 'exports'**
+- **Defining exported symbols as a member of 'module.exports' or 'exports'**
 
 ```js
 /** @module color/mixer */

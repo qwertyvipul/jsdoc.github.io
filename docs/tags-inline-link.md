@@ -58,7 +58,7 @@ the configuration options for link rendering.
 
 The following example shows all of the ways to provide link text for the `{@link}` tag:
 
-* **Providing link text**
+- **Providing link text**
 
 ```js
 /**
@@ -72,7 +72,7 @@ function myFunction() {}
 
 By default, the example above produces output similar to the following:
 
-* **Output for {@link} tags**
+- **Output for {@link} tags**
 
 ```html
 See &lt;a href="MyClass.html">MyClass&lt;/a> and &lt;a href="MyClass.html#foo">MyClass's foo
@@ -84,7 +84,7 @@ property&lt;/a>. Also, check out &lt;a href="http://www.google.com">Google&lt;/a
 If the configuration property `templates.cleverLinks` were set to `true`, the example above would
 produce the following output:
 
-* **Output with clever links enabled**
+- **Output with clever links enabled**
 
 ```html
 See &lt;a href="MyClass.html">&lt;code>MyClass&lt;/code>&lt;/a> and &lt;a href="MyClass.html#foo">

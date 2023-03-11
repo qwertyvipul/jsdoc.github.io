@@ -26,7 +26,7 @@ have an explicit constructor, use this tag in the JSDoc comment for the class.
 
 ## Examples
 
-* **@hideconstructor tag with pre-ES2015 class**
+- **@hideconstructor tag with pre-ES2015 class**
 
 ```js
 /**
@@ -70,7 +70,7 @@ var Toaster = (function() {
 ```
 
 
-* **@hideconstructor tag with ES2015 class**
+- **@hideconstructor tag with ES2015 class**
 
 ```js
 /**

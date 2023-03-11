@@ -12,7 +12,7 @@ in your code.
 
 ## Examples
 
-* **Using the @readonly tag**
+- **Using the @readonly tag**
 
 ```js
 /**
@@ -24,7 +24,7 @@ const FOO = 1;
 ```
 
 
-* **Using the @readonly tag with a getter**
+- **Using the @readonly tag with a getter**
 
 ```js
 /**

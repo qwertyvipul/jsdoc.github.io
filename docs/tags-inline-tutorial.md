@@ -30,7 +30,7 @@ of the `{@tutorial}` tag.
 
 The following example shows all of the ways to provide link text for the `{@tutorial}` tag:
 
-* **Providing link text**
+- **Providing link text**
 
 ```js
 /**
@@ -45,7 +45,7 @@ function myFunction() {}
 If all of these tutorials are defined, and the title of the `gettingstarted` tutorial is "Getting
 Started," the example above produces output similar to the following:
 
-* **Output for {@link} tags**
+- **Output for {@link} tags**
 
 ```html
 See &lt;a href="tutorial-gettingstarted.html">Getting Started&lt;/a> and

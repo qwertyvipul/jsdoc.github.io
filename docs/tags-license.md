@@ -26,7 +26,7 @@ the license, so that the license text will be included in generated JavaScript f
 
 ## Examples
 
-* **A module that is distributed under the Apache License 2.0**
+- **A module that is distributed under the Apache License 2.0**
 
 ```js
 /**
@@ -37,7 +37,7 @@ the license, so that the license text will be included in generated JavaScript f
 ```
 
 
-* **A standalone JSDoc comment with the complete MIT license**
+- **A standalone JSDoc comment with the complete MIT license**
 
 ```js
 /**

@@ -16,7 +16,7 @@ the @todo tag more than once in a single JSDoc comment.
 
 ## Examples
 
-* **Using the @todo tag**
+- **Using the @todo tag**
 
 ```js
 /**

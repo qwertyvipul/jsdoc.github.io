@@ -27,7 +27,7 @@ In modules where you are using the special "exports" object, the @exports tag is
 automatically recognizes that this object's members are being exported. Similarly, JSDoc
 automatically recognizes the special "module.exports" property in Node.js modules.
 
-* **CommonJS module**
+- **CommonJS module**
 
 ```js
 /**
@@ -42,7 +42,7 @@ exports.sayHello = function() {
 ```
 
 
-* **Node.js module**
+- **Node.js module**
 
 ```js
 /**
@@ -57,7 +57,7 @@ module.exports = function() {
 ```
 
 
-* **AMD module that exports an object literal**
+- **AMD module that exports an object literal**
 
 ```js
 define(function() {
@@ -78,7 +78,7 @@ define(function() {
 ```
 
 
-* **AMD module that exports a constructor**
+- **AMD module that exports a constructor**
 
 ```js
 define(function() {
@@ -108,7 +108,7 @@ define(function() {
 If your module exports an object named anything other than "exports" or "module.exports", use the
 @exports tag to indicate what is being exported.
 
-* **AMD module that exports an object**
+- **AMD module that exports an object**
 
 ```js
 define(function () {

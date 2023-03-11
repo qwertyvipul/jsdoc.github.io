@@ -28,7 +28,7 @@ global callback type that is referenced from multiple classes.
 
 ## Examples
 
-* **Documenting a class-specific callback**
+- **Documenting a class-specific callback**
 
 ```js
 /**
@@ -53,7 +53,7 @@ Requester.prototype.send = function(cb) {
 ```
 
 
-* **Documenting a global callback**
+- **Documenting a global callback**
 
 ```js
 /**

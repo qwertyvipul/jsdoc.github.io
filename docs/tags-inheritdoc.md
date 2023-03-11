@@ -25,7 +25,7 @@ The presence of the `@inheritdoc` tag implies the presence of the [`@override` t
 The following example shows how a class can indicate that it inherits documentation from its
 parent class:
 
-* **Class that inherits from a parent class**
+- **Class that inherits from a parent class**
 
 ```js
 /**
@@ -58,7 +58,7 @@ Socket.prototype.open = function() {
 
 You can get the same result by omitting the JSDoc comment from `Socket#open`:
 
-* **Inheriting documentation without the `@inheritdoc` tag**
+- **Inheriting documentation without the `@inheritdoc` tag**
 
 ```js
 /**

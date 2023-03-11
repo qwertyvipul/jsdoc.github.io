@@ -17,7 +17,7 @@ For example, if your plugin is defined in the `plugins/shout.js` file in the cur
 directory, you would add the string `plugins/shout` to the `plugins` array in your JSDoc
 configuration file:
 
-* **Adding a plugin to JSDoc's configuration file**
+- **Adding a plugin to JSDoc's configuration file**
 
 ```json
 {
@@ -46,7 +46,7 @@ At the highest level, a plugin may register handlers for specific named events t
 JSDoc will pass an event object to the handler. Your plugin module should export a `handlers` object
 that contains your handler, like so:
 
-* **Event-handler plugin for 'newDoclet' events**
+- **Event-handler plugin for 'newDoclet' events**
 
 ```js
 exports.handlers = {
@@ -99,7 +99,7 @@ parsed and added to the documentation. This might be done to document methods th
 to users, but might not appear in the source code being documented, such as methods provided by an
 external superclass:
 
-* **Example**
+- **Example**
 
 ```js
 exports.handlers = {
@@ -189,7 +189,7 @@ option][about-commandline].
 
 Below is an example of a `newDoclet` handler that shouts the descriptions:
 
-* **Example**
+- **Example**
 
 ```js
 exports.handlers = {
@@ -254,7 +254,7 @@ it is given a chance to modify the doclet.
 Plugins can define tags by exporting a `defineTags` function. That function will be passed a
 dictionary that can be used to define tags, like so:
 
-* **Example**
+- **Example**
 
 ```js
 exports.defineTags = function(dictionary) {
@@ -295,7 +295,7 @@ synonym for `@constant`; as a result, if you call `normalise('const')`, it retur
 
 A tag's `onTagged` callback can modify the contents of the doclet or tag.
 
-* **Defining an onTagged callback**
+- **Defining an onTagged callback**
 
 ```js
 dictionary.defineTag('instance', {
@@ -309,7 +309,7 @@ dictionary.defineTag('instance', {
 The `defineTag` method returns a `Tag` object, which has a `synonym` method that can be used to
 declare a synonym for the tag.
 
-* **Defining a tag synonym**
+- **Defining a tag synonym**
 
 ```js
 dictionary.defineTag('exception', { /* options for exception tag */ })
@@ -326,7 +326,7 @@ comments and trigger parser events for any arbitrary piece of code.
 Plugins can define a node visitor by exporting an `astNodeVisitor` object that contains a
 `visitNode` function, like so:
 
-* **Example**
+- **Example**
 
 ```js
 exports.astNodeVisitor = {
@@ -386,7 +386,7 @@ Using these methods creates a better user experience than simply throwing an err
 **Note**: Do not use the `jsdoc/util/error` module to report errors. This module is deprecated and
 will be removed in a future version of JSDoc.
 
-* **Reporting a non-fatal error**
+- **Reporting a non-fatal error**
 
 ```js
 var logger = require('jsdoc/util/logger');

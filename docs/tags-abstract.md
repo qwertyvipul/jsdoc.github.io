@@ -12,7 +12,7 @@ inherit the member.
 
 ## Example
 
-* **Parent class with abstract method, and child class that implements the method**
+- **Parent class with abstract method, and child class that implements the method**
 
 ```js
 /**

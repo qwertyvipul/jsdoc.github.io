@@ -30,7 +30,7 @@ symbol's scope.
 
 ## Examples
 
-* **Using the @public tag**
+- **Using the @public tag**
 
 ```js
 /**

@@ -25,7 +25,7 @@ In this example we are documenting a string constant. Note that although the cod
 support constant declarations, the @const documentation can just as effectively be used on `var`
 declarations.
 
-* **A string constant representing the color red**
+- **A string constant representing the color red**
 
 ```js
 /** @constant

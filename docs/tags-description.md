@@ -27,7 +27,7 @@ The description may include HTML markup. It may also include Markdown formatting
 If you describe a symbol at the very beginning of a JSDoc comment, before using any block tags, you
 may omit the @description tag.
 
-* **Describing a symbol without the @description tag**
+- **Describing a symbol without the @description tag**
 
 ```js
 /**
@@ -44,7 +44,7 @@ function add(a, b) {
 
 By using the @description tag, you can place the description anywhere in the JSDoc comment.
 
-* **Describing a symbol with the @description tag**
+- **Describing a symbol with the @description tag**
 
 ```js
 /**

@@ -28,7 +28,7 @@ the type, name and description.
 In this example we have a namespace named "config." We want all the information about the defaults
 property, including its nested values, to appear on the same page with the documentation for config.
 
-* **A namespace with defaults and nested default properties**
+- **A namespace with defaults and nested default properties**
 
 ```js
 /**
@@ -53,7 +53,7 @@ var config = {
 
 The following example shows how to indicate that a property is optional.
 
- * **A type definition with required and optional property**
+ - **A type definition with required and optional property**
 
  ```
 /**

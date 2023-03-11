@@ -18,7 +18,7 @@ it will remain global).
 
 ## Examples
 
-* **Using @inner to make a virtual doclet an inner member**
+- **Using @inner to make a virtual doclet an inner member**
 
 ```js
 /** @namespace MyNamespace */
@@ -34,7 +34,7 @@ it will remain global).
 Note that in the above we could have used "@function MyNamespace~myFunction" instead of the
 @memberof and @inner tags.
 
-* **Using @inner**
+- **Using @inner**
 
 ```js
 /** @namespace */

@@ -20,7 +20,7 @@ The @throws tag allows you to document an error that a function might throw. You
 
 ## Examples
 
-* **Using the @throws tag with a type**
+- **Using the @throws tag with a type**
 
 ```js
 /**
@@ -30,7 +30,7 @@ function foo(x) {}
 ```
 
 
-* **Using the @throws tag with a description**
+- **Using the @throws tag with a description**
 
 ```js
 /**
@@ -40,7 +40,7 @@ function bar(x) {}
 ```
 
 
-* **Using the @throws tag with a type and description**
+- **Using the @throws tag with a type and description**
 
 ```js
 /**

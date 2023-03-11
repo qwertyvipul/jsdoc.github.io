@@ -65,7 +65,7 @@ JSDoc will automatically recognize that the module exports these symbols.
 In the following example, the `my/shirt` module exports the methods `button` and `unbutton`. JSDoc
 will automatically detect that the module exports these methods.
 
-* **Methods added to the exports object**
+- **Methods added to the exports object**
 
 ```js
 /**
@@ -93,7 +93,7 @@ In some cases, an exported symbol may be assigned to a local variable before it'
 `exports` object. For example, if your module exports a `wash` method, and the module itself often
 calls the `wash` method, you might write the module as follows:
 
-* **Method assigned to a local variable and added to the exports object**
+- **Method assigned to a local variable and added to the exports object**
 
 ```js
 /**
@@ -114,7 +114,7 @@ solution is to add an [`@alias` tag][alias-tag] that defines the correct longnam
 this case, the method is a static member of the module `my/shirt`, so the correct longname is
 `module:my/shirt.wash`:
 
-* **Longname defined in an @alias tag**
+- **Longname defined in an @alias tag**
 
 ```js
 /**
@@ -135,7 +135,7 @@ var wash = exports.wash = function() {
 Another solution is to move the method's JSDoc comment so it comes immediately before
 `exports.wash`. This change allows JSDoc to detect that `wash` is exported by the module `my/shirt`:
 
-* **JSDoc comment immediately before exports.wash**
+- **JSDoc comment immediately before exports.wash**
 
 ```js
 /**
@@ -165,7 +165,7 @@ If a module assigns an object literal to `module.exports`. JSDoc automatically r
 module exports only this value. In addition, JSDoc automatically sets the correct longname for each
 property:
 
-* **Object literal assigned to module.exports**
+- **Object literal assigned to module.exports**
 
 ```js
 /**
@@ -200,7 +200,7 @@ module.exports = {
 You can also use this pattern if you add properties to `module.exports` outside of the object
 literal:
 
-* **Assignment to module.exports followed by property definition**
+- **Assignment to module.exports followed by property definition**
 
 ```js
 /**
@@ -237,7 +237,7 @@ module.exports.darken = function(color, percent) {
 If you assign a function to `module.exports`, JSDoc will automatically set the correct longname for
 the function:
 
-* **Function assigned to 'module.exports'**
+- **Function assigned to 'module.exports'**
 
 ```js
 /**
@@ -259,7 +259,7 @@ module.exports = function(color1, color2) {
 
 The same pattern works for constructor functions:
 
-* **Constructor assigned to 'module.exports'**
+- **Constructor assigned to 'module.exports'**
 
 ```js
 /**
@@ -280,7 +280,7 @@ For value types (strings, numbers, and booleans) assigned to `module.exports`, y
 exported value's type by using the [`@type` tag][type-tag] in the same JSDoc comment as the
 `@module` tag:
 
-* **String assigned to module.exports**
+- **String assigned to module.exports**
 
 ```js
 /**
@@ -302,7 +302,7 @@ If your module exports symbols that are not directly assigned to `module.exports
 [`@exports` tag][exports-tag] in place of the `@module` tag. The `@exports` tag tells JSDoc that a
 symbol represents the value exported by a module.
 
-* **Object literal assigned to a local variable and module.exports**
+- **Object literal assigned to a local variable and module.exports**
 
 ```js
 /**
@@ -333,7 +333,7 @@ var mixer = module.exports = {
 When a module adds a property to its `this` object, JSDoc 3 automatically recognizes that the new
 property is exported by the module:
 
-* **Properties added to a module's 'this' object**
+- **Properties added to a module's 'this' object**
 
 ```js
 /**

@@ -30,7 +30,7 @@ Use the [@callback][callback-tag] tag to document the type of callback functions
 This example defines a union type for parameters that can contain either numbers or strings that
 represent numbers.
 
-* **Using the @typedef tag**
+- **Using the @typedef tag**
 
 ```js
 /**
@@ -52,7 +52,7 @@ namepath so it will be displayed along with the class that uses the type. Becaus
 definition is not actually exposed by the class, it is customary to document the type definition as
 an inner member.
 
-* **Using @typedef to document a complex type for a class**
+- **Using @typedef to document a complex type for a class**
 
 ```js
 /**

@@ -26,7 +26,7 @@ portion of the namespace that includes unusual characters. See the examples belo
 
 ## Examples
 
-* **Using the @namespace tag with an object**
+- **Using the @namespace tag with an object**
 
 ```js
 /**
@@ -42,7 +42,7 @@ var MyNamespace = {
 ```
 
 
-* **Using the @namespace tag for virtual comments**
+- **Using the @namespace tag for virtual comments**
 
 ```js
 /**
@@ -62,7 +62,7 @@ If a @namespace includes a symbol whose name has unusual characters, you must en
 name in double quotes. If the symbol's name already contains one or more double quotes, escape the
 double quotes with a leading backslash (\\).
 
-* **Using the @namespace tag with unusual member names**
+- **Using the @namespace tag with unusual member names**
 
 ```js
 /** @namespace window */

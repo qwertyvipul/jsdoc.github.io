@@ -42,7 +42,7 @@ define an interface][virtual-comments]" for an example.
 In the following example, the `Color` function represents an interface that other classes can
 implement:
 
-* **Using the @interface tag**
+- **Using the @interface tag**
 
 ```js
 /**
@@ -68,7 +68,7 @@ Color.prototype.rgb = function() {
 <a name="virtual-comments"></a>
 The following example uses virtual comments, rather than code, to define the `Color` interface:
 
-* **Virtual comments that define an interface**
+- **Virtual comments that define an interface**
 
 ```js
 /**

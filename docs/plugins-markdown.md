@@ -43,7 +43,7 @@ comment)
 To enable the Markdown plugin, add the string `plugins/markdown` to the `plugins` array in your
 [JSDoc configuration file][config-file]:
 
-* **JSON configuration file that enables the Markdown plugin**
+- **JSON configuration file that enables the Markdown plugin**
 
 ```json
 {
@@ -69,7 +69,7 @@ For example, if the `foo` and `bar` tags accept values that are stored in a docl
 properties, you could enable Markdown processing of these tags by adding the following settings to
 your JSDoc configuration file:
 
-* **Converting Markdown in 'foo' and 'bar' tags**
+- **Converting Markdown in 'foo' and 'bar' tags**
 
 ```json
 {
@@ -92,7 +92,7 @@ property contains an array of the default tags that should not be processed for 
 
 For example, to exclude the `author` tag from Markdown processing:
 
-* **Excluding the 'author' tag from Markdown processing**
+- **Excluding the 'author' tag from Markdown processing**
 
 ```json
 {

@@ -31,7 +31,7 @@ In the following example, the `Duck` class is defined as a subclass of `Animal`.
 have the same properties as `Animal` instances, as well as a `speak` method that is unique to `Duck`
 instances.
 
-* **Documenting a class/subclass relationship**
+- **Documenting a class/subclass relationship**
 
 ```js
 /**
@@ -67,7 +67,7 @@ In the following example, the `Duck` class inherits from both the `Flyable` and 
 of which define a `takeOff` method. Because the documentation for `Duck` lists `@augments Bird`
 last, JSDoc automatically documents `Duck#takeOff` using the comment from `Bird#takeOff`.
 
-* **Multiple inheritance with duplicated method names**
+- **Multiple inheritance with duplicated method names**
 
 ```js
 /**

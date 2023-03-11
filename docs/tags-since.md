@@ -17,7 +17,7 @@ The @since tag indicates that a class, method, or other symbol was added in a sp
 
 ## Examples
 
-* **Using the @since tag**
+- **Using the @since tag**
 
 ```js
 /**

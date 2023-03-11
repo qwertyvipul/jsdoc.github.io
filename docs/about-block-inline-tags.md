@@ -44,7 +44,7 @@ Shoe.prototype.setColor = function (color) {
 
 You can use inline tags within a description, as shown above, or within a block tag, as shown below:
 
-* **Inline tag used within a block tag**
+- **Inline tag used within a block tag**
 
 ```js
 /**
@@ -62,7 +62,7 @@ Shoe.prototype.setColor = function (color) {
 
 When you use multiple block tags in a JSDoc comment, they must be separated by line breaks:
 
-* **Multiple block tags separated by line breaks**
+- **Multiple block tags separated by line breaks**
 
 ```js
 /**

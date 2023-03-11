@@ -21,7 +21,7 @@ that use the mixin.
 
 ## Examples
 
-* **Using @mixin**
+- **Using @mixin**
 
 ```js
 /**

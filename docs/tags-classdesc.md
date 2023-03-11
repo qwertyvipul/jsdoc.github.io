@@ -30,7 +30,7 @@ class's description.
 As shown below, a class has places for two descriptions, one applies to the function itself, while
 the other applies to the class in general.
 
-* **A doclet with both a constructor function description and a class description**
+- **A doclet with both a constructor function description and a class description**
 
 ```js
 /**

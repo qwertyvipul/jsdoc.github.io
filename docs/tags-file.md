@@ -17,7 +17,7 @@ the file.
 
 ## Example
 
-* **File description**
+- **File description**
 
 ```js
 /**

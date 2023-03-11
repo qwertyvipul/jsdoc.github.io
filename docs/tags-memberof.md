@@ -32,7 +32,7 @@ In the following example, the `hammer` function would normally be documented as 
 That's because, in fact, it is a global function, but it is also a member of the `Tools` namespace,
 and that's how you wish to document it. The solution is to add a @memberof tag:
 
-* **Using @memberof**
+- **Using @memberof**
 
 ```js
 /** @namespace */
@@ -49,7 +49,7 @@ Tools.hammer = hammer;
 For instance members of a class, use the syntax "@memberof ClassName.prototype" or "@memberof
 ClassName#". Alternatively, you can combine "@memberof ClassName" with the "@instance" tag.
 
-* **Using @memberof with a class prototype**
+- **Using @memberof with a class prototype**
 
 ```js
 /** @class Observable */
@@ -93,7 +93,7 @@ longname. We can force the property to be linkable by using "@alias" and "@membe
 that Data#point.y should be documented as a member "point.y" of "Data#", rather than a member "y" of
 "point" of "Data#".
 
-* **Using @memberof! for object properties**
+- **Using @memberof! for object properties**
 
 ```js
 /** @class */
