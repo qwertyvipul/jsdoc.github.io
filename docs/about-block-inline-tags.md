@@ -29,7 +29,7 @@ Most JSDoc tags are block tags. In general, when this site refers to "JSDoc tags
 
 In the following example, `@param` is a block tag, and `{@link}` is an inline tag:
 
--   Block and inline tags in JSDoc comments
+-   **Block and inline tags in JSDoc comments**
 
 ```js
 /**

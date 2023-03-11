@@ -5,9 +5,8 @@ const path = require('path');
 
 const cwd = process.cwd();
 const docsDir = path.join(cwd, 'docs');
-
 const fileNames = fs.readdirSync(docsDir);
-
+// Create list of inline and block tags to use it in categories
 const inlineTags = [];
 const blockTags = [];
 fileNames.forEach((fileName) => {

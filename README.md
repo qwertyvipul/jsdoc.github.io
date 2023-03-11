@@ -6,7 +6,7 @@ If you just want to read the documentation, please visit [Use JSDoc][use-jsdoc].
 
 ## Contributing to the documentation
 
-The documentation site is based on [Docusaurus](https://docusaurus.io/).  If you'd like to contribute to the docs, make sure Node.js and npm are installed, then follow these steps:
+The documentation site is based on [Docusaurus](https://docusaurus.io/). If you'd like to contribute to the docs, make sure Node.js and npm are installed, then follow these steps:
 
 1. Clone this repository:
 
@@ -32,7 +32,7 @@ The documentation site is based on [Docusaurus](https://docusaurus.io/).  If you
         npm run build
         npm run serve
 
-6. Review the updated markdown files, and make sure site builds successfully and your changes look okay. In particular, if you edited
+6. Review the updated markdown files, and make sure `npm run build` completes successfully and your changes look okay. In particular, if you edited
 the YAML front matter, make sure your changes are reflected in the generated site.
 
 7. Submit a pull request with your changes.

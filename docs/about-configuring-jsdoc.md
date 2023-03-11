@@ -225,11 +225,12 @@ If you run `jsdoc myProject/c.js -c /path/to/my/conf.json -r` from the file cont
 
 Here's why:
 
-1. Given `source.include` and the paths given on the command line, JSDoc starts off with these
-   files: + `myProject/c.js` (from the command line) + `myProject/a.js` (from `source.include`) + `myProject/lib/a.js`, `myProject/lib/ignore.js`, `myProject/lib/d.txt` (from `source.include`
-   and using the `-r` option) + `myProject/_private/a.js` (from `source.include`)
-2. JSDoc applies `source.includePattern`, leaving us with all of the above files _except_
-   `myProject/lib/d.txt`, which does not end in `.js`, `.jsdoc`, or `.jsx`.
+1. Given `source.include` and the paths given on the command line, JSDoc starts off with these files:
+   - `myProject/c.js` (from the command line) 
+   - `myProject/a.js` (from `source.include`) 
+   - `myProject/lib/a.js`, `myProject/lib/ignore.js`, `myProject/lib/d.txt` (from `source.include` and using the `-r` option) 
+   - `myProject/_private/a.js` (from `source.include`)
+2. JSDoc applies `source.includePattern`, leaving us with all of the above files _except_ `myProject/lib/d.txt`, which does not end in `.js`, `.jsdoc`, or `.jsx`.
 3. JSDoc applies `source.excludePattern`, which removes `myProject/_private/a.js`.
 4. JSDoc applies `source.exclude`, which removes `myProject/lib/ignore.js`.
 
