@@ -12,7 +12,7 @@
 - Added Docusaurus generated `babel.config.js`.
 - Added contribute page.
 - Changes in markdown content:
-  - Replaced `{% example "Inline tag used within a block tag" %}` with `* **Inline tag used within a block tag**`.
+  - Replaced `{% example "Inline tag used within a block tag" %}` with `- **Inline tag used within a block tag**`.
   - Removed `{% endexample %}`.
   - Removed `.html` suffix from internal links.
   - Prettier changes.
